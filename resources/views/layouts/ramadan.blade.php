@@ -21,31 +21,47 @@
            border-b border-brand-100/70
            shadow-sm"
   >
-    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
+    <div class="relative max-w-6xl mx-auto px-6 py-4 flex flex-col items-start gap-4 md:flex-row md:items-center md:justify-between md:gap-6">
 
-      <!-- Logo & Judul -->
-      <a href="{{ route('home') }}" class="flex items-center gap-3">
-        <img
-          src="{{ asset('images/logo.jpg') }}"
-          alt="Logo SIT Auladi Palembang"
-          class="h-12 w-auto object-contain"
+      <div class="w-full flex items-center justify-between gap-4 md:w-auto">
+        <!-- Logo & Judul -->
+        <a href="{{ route('home') }}" class="flex items-center gap-3">
+          <img
+            src="{{ asset('images/logo.jpg') }}"
+            alt="Logo SIT Auladi Palembang"
+            class="h-12 w-auto object-contain"
+          >
+          <span
+            style="font-family: 'Playfair Display', serif;"
+            class="text-lg sm:text-xl md:text-2xl font-bold tracking-wide text-brand-500 leading-tight"
+          >
+            SIT Auladi Palembang
+          </span>
+        </a>
+
+        <button
+          id="mobile-menu-button"
+          type="button"
+          class="inline-flex items-center justify-center rounded-lg border border-brand-200 bg-white/80 px-3 py-2 text-brand-500 shadow-sm transition hover:bg-white md:hidden"
+          aria-controls="site-nav"
+          aria-expanded="false"
         >
-        <span
-          style="font-family: 'Playfair Display', serif;"
-          class="text-xl md:text-2xl font-bold tracking-wide text-brand-500 leading-tight"
-        >
-          SIT Auladi Palembang
-        </span>
-      </a>
+          <span class="sr-only">Buka menu navigasi</span>
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
 
       <!-- Nav -->
       <nav
         style="font-family: 'Poppins', sans-serif;"
-        class="flex items-center gap-8 text-base font-normal text-brand-500"
+        class="absolute right-6 top-full mt-2 hidden w-56 flex-col items-stretch gap-3 rounded-2xl border border-brand-100/70 bg-white/95 p-4 text-sm font-normal text-brand-500 shadow-md sm:text-base md:static md:mt-0 md:flex md:w-auto md:flex-row md:items-center md:gap-8 md:border-none md:bg-transparent md:p-0 md:shadow-none"
+        id="site-nav"
       >
-        <a href="#materi" class="hover:text-brand-600 transition">Video Materi</a>
-        <a href="#kegiatan" class="hover:text-brand-600 transition">Kegiatan Ramadhan</a>
-        <a href="#jadwal" class="hover:text-brand-600 transition">Jadwal Ramadhan</a>
+        <a href="#materi" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Video Materi</a>
+        <a href="#kegiatan" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Kegiatan Ramadhan</a>
+        <a href="#jadwal" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Jadwal Ramadhan</a>
       </nav>
 
     </div>
@@ -83,7 +99,37 @@
       if (!header) return;
       document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px');
     }
-    window.addEventListener('load', setHeaderHeight);
+
+    function setupMobileMenu() {
+      const button = document.getElementById('mobile-menu-button');
+      const nav = document.getElementById('site-nav');
+      if (!button || !nav) return;
+
+      const closeMenu = () => {
+        nav.classList.add('hidden');
+        button.setAttribute('aria-expanded', 'false');
+      };
+
+      button.addEventListener('click', () => {
+        const isOpen = !nav.classList.contains('hidden');
+        nav.classList.toggle('hidden', isOpen);
+        button.setAttribute('aria-expanded', String(!isOpen));
+        setHeaderHeight();
+      });
+
+      document.addEventListener('click', (event) => {
+        if (nav.classList.contains('hidden')) return;
+        const target = event.target;
+        if (nav.contains(target) || button.contains(target)) return;
+        closeMenu();
+        setHeaderHeight();
+      });
+    }
+
+    window.addEventListener('load', () => {
+      setHeaderHeight();
+      setupMobileMenu();
+    });
     window.addEventListener('resize', setHeaderHeight);
   </script>
 

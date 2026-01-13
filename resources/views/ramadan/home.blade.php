@@ -133,7 +133,7 @@
       <div class="max-w-3xl">
 
         <!-- Ucapan -->
-        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full translate-y-5
                     bg-white/70 border border-[var(--color-brand-500)]/20 backdrop-blur
                     text-sm text-slate-700">
           🌙 Selamat Menunaikan Ibadah Puasa Ramadhan
@@ -192,7 +192,7 @@
 </section>
 
 <!-- KEGIATAN -->
-<section id="kegiatan" class="scroll-mt-28 max-w-6xl mx-auto px-6 py-16">
+<section id="kegiatan" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16">
   <h2 class="text-2xl md:text-3xl font-extrabold text-slate-800">Kegiatan Ramadhan</h2>
   <p class="mt-2 text-slate-600 max-w-2xl">
     Rangkaian kegiatan Ramadhan SIT Auladi: pesantren kilat, tadarus, zakat/infak, dan buka bersama.
