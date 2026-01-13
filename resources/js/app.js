@@ -1,22 +1,14 @@
 import './bootstrap'
 
-// Smooth scroll untuk anchor
-document.addEventListener('click', (e) => {
-  const a = e.target.closest('a[href^="#"]')
-  if (!a) return
-  const id = a.getAttribute('href')
-  const el = document.querySelector(id)
-  if (!el) return
-  e.preventDefault()
-  el.scrollIntoView({ behavior: 'smooth', block: 'start' })
-})
+// UBAH tanggal ini sesuai awal Ramadhan
+const RAMADHAN_START = '2026-02-18T00:00:00'
+const targetDate = new Date(RAMADHAN_START)
 
-// Countdown (set tanggal Idul Fitri — bisa kamu ubah)
-const target = new Date('2026-03-20T00:00:00') // UBAH sesuai kebutuhan
+function pad2(n) { return String(n).padStart(2, '0') }
 
-function tick() {
+function updateCountdown() {
   const now = new Date()
-  const diff = Math.max(0, target - now)
+  const diff = Math.max(0, targetDate - now)
 
   const days = Math.floor(diff / (1000 * 60 * 60 * 24))
   const hours = Math.floor((diff / (1000 * 60 * 60)) % 24)
@@ -29,10 +21,16 @@ function tick() {
   }
 
   set('days', days)
-  set('hours', hours)
-  set('mins', mins)
-  set('secs', secs)
+  set('hours', pad2(hours))
+  set('mins', pad2(mins))
+  set('secs', pad2(secs))
+
+  const label = document.getElementById('ramadhan-date-label')
+  if (label) {
+    const d = targetDate
+    label.textContent = `Target: ${pad2(d.getDate())}-${pad2(d.getMonth()+1)}-${d.getFullYear()}`
+  }
 }
 
-tick()
-setInterval(tick, 1000)
+updateCountdown()
+setInterval(updateCountdown, 1000)

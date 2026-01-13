@@ -1,11 +1,106 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
 
+/* Sumber file Blade & JS */
 @source "../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php";
 @source "../../storage/framework/views/*.php";
 @source "../**/*.blade.php";
 @source "../**/*.js";
 
+/* =========================
+   TEMA BRAND SIT AULADI
+   ========================= */
 @theme {
-  --font-sans: "Instrument Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* ORANGE brand (sesuaikan dengan logo SIT Auladi) */
+  --color-brand-50:  #FFF7ED;
+  --color-brand-100: #FFEDD5;
+  --color-brand-200: #FED7AA;
+  --color-brand-300: #FDBA74;
+  --color-brand-400: #FB923C;
+  --color-brand-500: #F57F25; /* ORANGE UTAMA (header) */
+  --color-brand-600: #EA580C;
+  --color-brand-700: #C2410C;
+  --color-brand-800: #9A3412;
+  --color-brand-900: #7C2D12;
+
+  /* Font tetap */
+  --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* =========================
+   LENTERA GANTUNG (Tidak mengganggu header)
+   ========================= */
+
+/* Layer lentera: berada di bawah header (header z-50) */
+.lanterns {
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  /* Naikkan sedikit lagi */
+  top: calc(var(--header-h, 80px) - 95px);
+
+
+  bottom: 0;
+  pointer-events: none;
+  user-select: none;
+  z-index: 10;
+}
+
+
+.lantern {
+  position: absolute;
+  transform-origin: top center;
+  filter: drop-shadow(0 18px 26px rgba(0,0,0,0.18));
+  opacity: 0.95;
+
+  /* variabel anim default */
+  --swing: 3deg;
+  --swing-dur: 3.6s;
+  --swing-delay: 0s;
+
+  --glow-dur: 2.2s;
+  --glow-delay: 0s;
+
+  --light-dur: 1.8s;
+  --light-delay: 0s;
+
+  animation: lanternSwing var(--swing-dur) ease-in-out infinite;
+  animation-delay: var(--swing-delay);
+}
+
+/* Glow dan cahaya */
+.lantern .glow {
+  transform-origin: center;
+  animation: glowPulse var(--glow-dur) ease-in-out infinite;
+  animation-delay: var(--glow-delay);
+}
+
+.lantern .light {
+  transform-origin: center;
+  animation: glowPulse var(--light-dur) ease-in-out infinite;
+  animation-delay: var(--light-delay);
+}
+
+/* Ayunan */
+@keyframes lanternSwing {
+  0%   { transform: rotate(calc(var(--swing) * -1)) translateY(0); }
+  50%  { transform: rotate(var(--swing)) translateY(2px); }
+  100% { transform: rotate(calc(var(--swing) * -1)) translateY(0); }
+}
+
+/* Denyut cahaya */
+@keyframes glowPulse {
+  0%   { opacity: 0.55; transform: scale(0.98); }
+  50%  { opacity: 1;    transform: scale(1.03); }
+  100% { opacity: 0.55; transform: scale(0.98); }
+}
+
+/* reduce motion */
+@media (prefers-reduced-motion: reduce) {
+  .lantern,
+  .lantern .glow,
+  .lantern .light {
+    animation: none !important;
+  }
 }
