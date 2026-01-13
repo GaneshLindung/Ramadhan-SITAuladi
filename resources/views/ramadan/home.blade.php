@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- HERO FULL SCREEN -->
-<section class="relative h-[calc(100vh-var(--header-h,80px))] overflow-hidden flex items-center">
+<section class="relative h-auto min-h-[100svh] md:min-h-[calc(100vh-var(--header-h,80px))] overflow-hidden flex items-center py-8 md:py-0">
   <!-- Background -->
   <div class="absolute inset-0">
     <img
@@ -151,35 +151,47 @@
         </p>
 
         <!-- Countdown -->
-        <div class="mt-6 max-w-xl rounded-3xl border border-[var(--color-brand-500)]/20
-                    bg-white/65 backdrop-blur p-6 shadow-sm">
-          <div class="flex items-center justify-between gap-3">
-            <div>
-              <div class="text-sm text-slate-600">Countdown menuju</div>
-              <div class="text-xl font-bold text-slate-800">Ramadhan</div>
+        <div class="mt-6 max-w-xl rounded-3xl border border-[var(--color-brand-500)]/25
+                    bg-gradient-to-br from-white/90 via-white/70 to-[var(--color-brand-50)]/80
+                    backdrop-blur p-6 shadow-lg shadow-[var(--color-brand-500)]/10">
+          <div class="flex flex-wrap items-center justify-between gap-4">
+            <div class="flex items-center gap-3">
+              <div class="flex h-12 w-12 items-center justify-center rounded-2xl
+                          bg-[var(--color-brand-500)]/10 text-2xl">
+                ✨
+              </div>
+              <div>
+                <div class="text-xs uppercase tracking-widest text-[var(--color-brand-600)]">
+                  Countdown menuju
+                </div>
+                <div class="text-2xl font-extrabold text-slate-800">Idul Fitri</div>
+              </div>
             </div>
 
             <a href="#jadwal"
-               class="px-4 py-2 rounded-xl bg-[var(--color-brand-500)] text-white font-semibold
+               class="inline-flex items-center gap-2 px-4 py-2 rounded-xl
+                      bg-[var(--color-brand-500)] text-white font-semibold
+                      shadow-md shadow-[var(--color-brand-500)]/30
                       hover:bg-[var(--color-brand-600)] transition">
               Lihat Jadwal
+              <span aria-hidden="true">→</span>
             </a>
           </div>
 
-          <div class="mt-5 grid grid-cols-4 gap-3 text-center">
-            <div class="rounded-2xl bg-white/75 border border-[var(--color-brand-500)]/15 p-4">
+          <div class="mt-5 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+            <div class="rounded-2xl bg-white/90 border border-[var(--color-brand-500)]/15 p-4">
               <div class="text-3xl font-extrabold leading-none text-slate-800" data-cd="days">0</div>
               <div class="text-xs text-slate-600 mt-1">Hari</div>
             </div>
-            <div class="rounded-2xl bg-white/75 border border-[var(--color-brand-500)]/15 p-4">
+            <div class="rounded-2xl bg-white/90 border border-[var(--color-brand-500)]/15 p-4">
               <div class="text-3xl font-extrabold leading-none text-slate-800" data-cd="hours">0</div>
               <div class="text-xs text-slate-600 mt-1">Jam</div>
             </div>
-            <div class="rounded-2xl bg-white/75 border border-[var(--color-brand-500)]/15 p-4">
+            <div class="rounded-2xl bg-white/90 border border-[var(--color-brand-500)]/15 p-4">
               <div class="text-3xl font-extrabold leading-none text-slate-800" data-cd="mins">0</div>
               <div class="text-xs text-slate-600 mt-1">Menit</div>
             </div>
-            <div class="rounded-2xl bg-white/75 border border-[var(--color-brand-500)]/15 p-4">
+            <div class="rounded-2xl bg-white/90 border border-[var(--color-brand-500)]/15 p-4">
               <div class="text-3xl font-extrabold leading-none text-slate-800" data-cd="secs">0</div>
               <div class="text-xs text-slate-600 mt-1">Detik</div>
             </div>
@@ -192,7 +204,7 @@
 </section>
 
 <!-- KEGIATAN -->
-<section id="kegiatan" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16">
+<section id="kegiatan" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16 mt-10">
   <h2 class="text-2xl md:text-3xl font-extrabold text-slate-800">Kegiatan Ramadhan</h2>
   <p class="mt-2 text-slate-600 max-w-2xl">
     Rangkaian kegiatan Ramadhan SIT Auladi: pesantren kilat, tadarus, zakat/infak, dan buka bersama.

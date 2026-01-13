@@ -1,8 +1,8 @@
 import './bootstrap'
 
-// UBAH tanggal ini sesuai awal Ramadhan
-const RAMADHAN_START = '2026-02-18T00:00:00'
-const targetDate = new Date(RAMADHAN_START)
+// UBAH tanggal ini sesuai Idul Fitri
+const IDUL_FITRI_DATE = '2026-03-20T00:00:00'
+const targetDate = new Date(IDUL_FITRI_DATE)
 
 function pad2(n) { return String(n).padStart(2, '0') }
 
