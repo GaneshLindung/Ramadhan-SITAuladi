@@ -5,7 +5,7 @@
 @section('content')
 
 <!-- HERO FULL SCREEN -->
-<section class="relative h-auto min-h-[100svh] md:min-h-[calc(100vh-var(--header-h,80px))] overflow-hidden flex items-center py-8 md:py-0">
+<section class="relative h-auto min-h-[calc(100svh-var(--header-h,80px))] md:min-h-[calc(100vh-var(--header-h,80px))] overflow-hidden flex items-start md:items-center pt-4 pb-8 md:py-0">
   <!-- Background -->
   <div class="absolute inset-0">
     <img
@@ -130,10 +130,10 @@
   <!-- Content -->
   <div class="relative w-full">
     <div class="max-w-6xl mx-auto px-6">
-      <div class="max-w-3xl">
+      <div class="w-full md:max-w-3xl">
 
         <!-- Ucapan -->
-        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full translate-y-5
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full translate-y-0 md:translate-y-5
                     bg-white/70 border border-[var(--color-brand-500)]/20 backdrop-blur
                     text-sm text-slate-700">
           🌙 Selamat Menunaikan Ibadah Puasa Ramadhan
