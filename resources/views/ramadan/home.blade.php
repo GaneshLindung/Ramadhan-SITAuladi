@@ -295,6 +295,50 @@
         </div>
       </div>
     </div>
+
+    <details class="mt-6 group">
+      <summary class="inline-flex items-center gap-2 rounded-2xl border border-[var(--color-brand-500)]/30 bg-white/80 px-5 py-2 text-sm font-semibold text-[var(--color-brand-600)] transition hover:border-[var(--color-brand-500)]/60">
+        Lihat lainnya
+        <span class="text-lg leading-none transition group-open:rotate-90">›</span>
+      </summary>
+      <div class="mt-5 grid md:grid-cols-3 gap-5">
+        <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm">
+          <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+            Foto Bakti Sosial
+          </div>
+          <div class="mt-4 font-semibold text-slate-800">Aksi Berbagi Sembako</div>
+          <p class="mt-2 text-sm text-slate-600">Kunjungan siswa ke panti asuhan disertai pembagian paket sembako.</p>
+          <div class="mt-3 text-xs text-slate-500 space-y-1">
+            <div>📸 Dokumentasi: Tim Humas</div>
+            <div>🗓️ Tanggal: 18 Ramadhan</div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm">
+          <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+            Foto Kelas Inspiratif
+          </div>
+          <div class="mt-4 font-semibold text-slate-800">Kelas Adab & Akhlak</div>
+          <p class="mt-2 text-sm text-slate-600">Diskusi interaktif tentang adab berbicara dan bersosial media.</p>
+          <div class="mt-3 text-xs text-slate-500 space-y-1">
+            <div>📸 Dokumentasi: Guru BK</div>
+            <div>🗓️ Tanggal: 20 Ramadhan</div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm">
+          <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+            Foto Lomba Islami
+          </div>
+          <div class="mt-4 font-semibold text-slate-800">Lomba Adzan & Tartil</div>
+          <p class="mt-2 text-sm text-slate-600">Penampilan siswa terbaik dalam lomba adzan dan tartil Al-Qur'an.</p>
+          <div class="mt-3 text-xs text-slate-500 space-y-1">
+            <div>📸 Dokumentasi: OSIS</div>
+            <div>🗓️ Tanggal: 24 Ramadhan</div>
+          </div>
+        </div>
+      </div>
+    </details>
   </div>
 </section>
 
@@ -336,37 +380,45 @@
           allowfullscreen></iframe>
       </div>
     </div>
-
-    <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm">
-      <div class="font-bold text-slate-800">Motivasi Belajar: Ramadhan Produktif</div>
-      <div class="mt-2 text-sm text-slate-600">
-        Pemateri: Tim BK | Durasi: 15 menit | Target: SMP
-      </div>
-      <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
-        <iframe class="w-full h-full"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          title="Video Materi"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm">
-      <div class="font-bold text-slate-800">Fiqih Puasa: Tanya Jawab</div>
-      <div class="mt-2 text-sm text-slate-600">
-        Pemateri: Ustaz Khalid | Durasi: 20 menit | Target: Orang tua
-      </div>
-      <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
-        <iframe class="w-full h-full"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          title="Video Materi"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </div>
-    </div>
   </div>
+
+  <details class="mt-6 group">
+    <summary class="inline-flex items-center gap-2 rounded-2xl border border-[var(--color-brand-500)]/30 bg-white/80 px-5 py-2 text-sm font-semibold text-[var(--color-brand-600)] transition hover:border-[var(--color-brand-500)]/60">
+      Lihat lainnya
+      <span class="text-lg leading-none transition group-open:rotate-90">›</span>
+    </summary>
+    <div class="mt-5 grid md:grid-cols-2 gap-6">
+      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm">
+        <div class="font-bold text-slate-800">Motivasi Belajar: Ramadhan Produktif</div>
+        <div class="mt-2 text-sm text-slate-600">
+          Pemateri: Tim BK | Durasi: 15 menit | Target: SMP
+        </div>
+        <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
+          <iframe class="w-full h-full"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Video Materi"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm">
+        <div class="font-bold text-slate-800">Fiqih Puasa: Tanya Jawab</div>
+        <div class="mt-2 text-sm text-slate-600">
+          Pemateri: Ustaz Khalid | Durasi: 20 menit | Target: Orang tua
+        </div>
+        <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
+          <iframe class="w-full h-full"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Video Materi"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </details>
 </section>
 
 <!-- JADWAL -->
