@@ -207,26 +207,93 @@
 <section id="kegiatan" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16 mt-10">
   <h2 class="text-2xl md:text-3xl font-extrabold text-slate-800">Kegiatan Ramadhan</h2>
   <p class="mt-2 text-slate-600 max-w-2xl">
-    Rangkaian kegiatan Ramadhan SIT Auladi: pesantren kilat, tadarus, zakat/infak, dan buka bersama.
+    Rangkaian kegiatan Ramadhan SIT Auladi disusun untuk memperkuat ibadah, karakter, dan kebersamaan.
+    Setiap kegiatan didampingi guru pembina dan terdokumentasi secara berkala.
   </p>
 
   <div class="mt-8 grid md:grid-cols-3 gap-5">
     <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 backdrop-blur p-6 shadow-sm">
       <div class="text-2xl">🏫</div>
       <div class="mt-2 font-bold text-slate-800">Pesantren Kilat</div>
-      <p class="mt-2 text-sm text-slate-600">Pembinaan iman, adab, dan ibadah siswa selama bulan Ramadhan.</p>
+      <p class="mt-2 text-sm text-slate-600">
+        Pembinaan iman, adab, dan ibadah siswa dengan materi fiqih puasa, akhlak, serta praktik ibadah harian.
+      </p>
+      <ul class="mt-3 text-xs text-slate-500 space-y-1">
+        <li>📅 Pekan 1-2 Ramadhan</li>
+        <li>👥 Pembina: Ustaz/Ustazah SIT Auladi</li>
+        <li>📍 Ruang kelas & musala</li>
+      </ul>
     </div>
 
     <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 backdrop-blur p-6 shadow-sm">
       <div class="text-2xl">🤲</div>
       <div class="mt-2 font-bold text-slate-800">Zakat & Infak</div>
-      <p class="mt-2 text-sm text-slate-600">Menumbuhkan kepedulian sosial dan semangat berbagi.</p>
+      <p class="mt-2 text-sm text-slate-600">
+        Menumbuhkan kepedulian sosial melalui pengumpulan dan penyaluran zakat/infak bersama komite sekolah.
+      </p>
+      <ul class="mt-3 text-xs text-slate-500 space-y-1">
+        <li>🧺 Pengumpulan: setiap pagi</li>
+        <li>🤝 Penyaluran: menjelang akhir Ramadhan</li>
+        <li>📍 Posko amal sekolah</li>
+      </ul>
     </div>
 
     <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 backdrop-blur p-6 shadow-sm">
       <div class="text-2xl">🍽️</div>
       <div class="mt-2 font-bold text-slate-800">Buka Bersama</div>
-      <p class="mt-2 text-sm text-slate-600">Kebersamaan siswa, guru, dan orang tua dalam suasana Ramadhan.</p>
+      <p class="mt-2 text-sm text-slate-600">
+        Momen kebersamaan siswa, guru, dan orang tua disertai tausiyah singkat serta doa bersama.
+      </p>
+      <ul class="mt-3 text-xs text-slate-500 space-y-1">
+        <li>🕒 16.30 - 19.00 WIB</li>
+        <li>🍱 Menu iftar sehat bersama</li>
+        <li>📍 Aula utama</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mt-10">
+    <div class="flex items-center justify-between flex-wrap gap-3">
+      <h3 class="text-xl font-bold text-slate-800">Dokumentasi Kegiatan</h3>
+      <p class="text-sm text-slate-500">Ringkasan dokumentasi per kegiatan untuk arsip sekolah.</p>
+    </div>
+
+    <div class="mt-6 grid md:grid-cols-3 gap-5">
+      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm">
+        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+          Foto Pesantren Kilat
+        </div>
+        <div class="mt-4 font-semibold text-slate-800">Hari Pembukaan Pesantren</div>
+        <p class="mt-2 text-sm text-slate-600">Pembacaan ayat suci, tausiyah, dan kontrak belajar Ramadhan.</p>
+        <div class="mt-3 text-xs text-slate-500 space-y-1">
+          <div>📸 Dokumentasi: Tim Humas</div>
+          <div>🗓️ Tanggal: 12 Ramadhan</div>
+        </div>
+      </div>
+
+      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm">
+        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+          Foto Tadarus & Kultum
+        </div>
+        <div class="mt-4 font-semibold text-slate-800">Tadarus Pagi Bersama</div>
+        <p class="mt-2 text-sm text-slate-600">Kegiatan tadarus 1 juz per pekan dilanjutkan kultum siswa.</p>
+        <div class="mt-3 text-xs text-slate-500 space-y-1">
+          <div>📸 Dokumentasi: Wali kelas</div>
+          <div>🗓️ Tanggal: 14-20 Ramadhan</div>
+        </div>
+      </div>
+
+      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm">
+        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+          Foto Buka Bersama
+        </div>
+        <div class="mt-4 font-semibold text-slate-800">Iftar & Doa Bersama</div>
+        <p class="mt-2 text-sm text-slate-600">Kebersamaan seluruh keluarga besar SIT Auladi.</p>
+        <div class="mt-3 text-xs text-slate-500 space-y-1">
+          <div>📸 Dokumentasi: OSIS & Panitia</div>
+          <div>🗓️ Tanggal: 22 Ramadhan</div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -235,12 +302,16 @@
 <section id="materi" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16">
   <h2 class="text-2xl md:text-3xl font-extrabold text-slate-800">Video Materi</h2>
   <p class="mt-2 text-slate-600 max-w-2xl">
-    Materi Ramadhan untuk siswa dan orang tua. (Ganti link video YouTube sesuai kebutuhan.)
+    Materi Ramadhan untuk siswa dan orang tua, berisi penguatan ibadah, adab, dan motivasi belajar.
+    Silakan ganti tautan video YouTube sesuai kebutuhan.
   </p>
 
   <div class="mt-8 grid md:grid-cols-2 gap-6">
     <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm">
       <div class="font-bold text-slate-800">Kajian Ramadhan: Adab Puasa</div>
+      <div class="mt-2 text-sm text-slate-600">
+        Pemateri: Ustaz Ahmad | Durasi: 18 menit | Target: SD-SMP
+      </div>
       <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
         <iframe class="w-full h-full"
           src="https://www.youtube.com/embed/dQw4w9WgXcQ"
@@ -253,6 +324,39 @@
 
     <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm">
       <div class="font-bold text-slate-800">Kultum Singkat: Keutamaan Ramadhan</div>
+      <div class="mt-2 text-sm text-slate-600">
+        Pemateri: Ustazah Nisa | Durasi: 12 menit | Target: TK-SD
+      </div>
+      <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
+        <iframe class="w-full h-full"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="Video Materi"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm">
+      <div class="font-bold text-slate-800">Motivasi Belajar: Ramadhan Produktif</div>
+      <div class="mt-2 text-sm text-slate-600">
+        Pemateri: Tim BK | Durasi: 15 menit | Target: SMP
+      </div>
+      <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
+        <iframe class="w-full h-full"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="Video Materi"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm">
+      <div class="font-bold text-slate-800">Fiqih Puasa: Tanya Jawab</div>
+      <div class="mt-2 text-sm text-slate-600">
+        Pemateri: Ustaz Khalid | Durasi: 20 menit | Target: Orang tua
+      </div>
       <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
         <iframe class="w-full h-full"
           src="https://www.youtube.com/embed/dQw4w9WgXcQ"
@@ -269,7 +373,8 @@
 <section id="jadwal" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16">
   <h2 class="text-2xl md:text-3xl font-extrabold text-slate-800">Jadwal Kegiatan Ramadhan</h2>
   <p class="mt-2 text-slate-600 max-w-2xl">
-    Contoh jadwal kegiatan. Silakan sesuaikan tanggal dan kegiatan.
+    Jadwal berikut dapat disesuaikan oleh wali kelas dan panitia. Waktu bersifat estimasi dan
+    dapat berubah sesuai kondisi sekolah.
   </p>
 
   <div class="mt-8 overflow-x-auto rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 shadow-sm">
@@ -284,22 +389,40 @@
       </thead>
       <tbody class="divide-y divide-[var(--color-brand-500)]/10">
         <tr class="text-slate-700">
-          <td class="px-6 py-4">Hari 1</td>
+          <td class="px-6 py-4">Senin, 11 Maret</td>
           <td class="px-6 py-4">Pembukaan Ramadhan & Tausiyah</td>
           <td class="px-6 py-4">07.30 - 09.00</td>
           <td class="px-6 py-4">Aula</td>
         </tr>
         <tr class="text-slate-700">
-          <td class="px-6 py-4">Hari 2</td>
-          <td class="px-6 py-4">Pesantren Kilat</td>
+          <td class="px-6 py-4">Selasa, 12 Maret</td>
+          <td class="px-6 py-4">Pesantren Kilat: Fiqih Puasa</td>
           <td class="px-6 py-4">08.00 - 10.00</td>
           <td class="px-6 py-4">Kelas</td>
         </tr>
         <tr class="text-slate-700">
-          <td class="px-6 py-4">Hari 3</td>
-          <td class="px-6 py-4">Tadarus Bersama</td>
-          <td class="px-6 py-4">07.00 - 07.30</td>
-          <td class="px-6 py-4">Masjid</td>
+          <td class="px-6 py-4">Rabu, 13 Maret</td>
+          <td class="px-6 py-4">Tadarus & Kultum Siswa</td>
+          <td class="px-6 py-4">07.00 - 08.00</td>
+          <td class="px-6 py-4">Musala</td>
+        </tr>
+        <tr class="text-slate-700">
+          <td class="px-6 py-4">Kamis, 14 Maret</td>
+          <td class="px-6 py-4">Kelas Karakter: Adab Berpuasa</td>
+          <td class="px-6 py-4">09.30 - 11.00</td>
+          <td class="px-6 py-4">Aula</td>
+        </tr>
+        <tr class="text-slate-700">
+          <td class="px-6 py-4">Jumat, 15 Maret</td>
+          <td class="px-6 py-4">Pengumpulan Zakat & Infak</td>
+          <td class="px-6 py-4">07.00 - 08.30</td>
+          <td class="px-6 py-4">Posko Amal</td>
+        </tr>
+        <tr class="text-slate-700">
+          <td class="px-6 py-4">Jumat, 22 Maret</td>
+          <td class="px-6 py-4">Buka Bersama & Doa</td>
+          <td class="px-6 py-4">16.30 - 19.00</td>
+          <td class="px-6 py-4">Aula</td>
         </tr>
       </tbody>
     </table>
