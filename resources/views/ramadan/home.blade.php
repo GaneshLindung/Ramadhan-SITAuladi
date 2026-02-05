@@ -38,30 +38,30 @@
         <circle cx="55" cy="54" r="7" fill="rgba(60,60,60,0.18)"/>
 
         <!-- GLOW -->
-        <circle class="glow" cx="55" cy="130" r="48" fill="rgba(30,64,175,0.22)"/>
+        <circle class="glow" cx="55" cy="130" r="48" fill="rgba(251,191,36,0.5)"/>
 
         <!-- KUBAH -->
         <path d="M35 72C35 52 55 42 55 42C55 42 75 52 75 72V80H35V72Z"
               fill="rgba(255,255,255,0.9)"
-              stroke="rgba(30,64,175,0.6)"
+              stroke="rgba(251,191,36,0.9)"
               stroke-width="3"/>
 
         <!-- BADAN -->
         <ellipse cx="55" cy="120" rx="32" ry="38"
                  fill="rgba(255,255,255,0.9)"
-                 stroke="rgba(30,64,175,0.55)"
+                 stroke="rgba(251,191,36,0.85)"
                  stroke-width="3"/>
 
         <!-- ORNAMEN -->
-        <path d="M23 120H87" stroke="rgba(30,64,175,0.25)" stroke-width="3" stroke-linecap="round"/>
-        <path d="M30 102H80" stroke="rgba(30,64,175,0.18)" stroke-width="2" stroke-linecap="round"/>
+        <path d="M23 120H87" stroke="rgba(251,191,36,0.55)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M30 102H80" stroke="rgba(251,191,36,0.4)" stroke-width="2" stroke-linecap="round"/>
 
         <!-- CAHAYA -->
         <path class="light"
               d="M25 160C38 180 72 180 85 160
                  C76 176 66 196 55 196
                  C44 196 34 176 25 160Z"
-              fill="rgba(30,64,175,0.22)"/>
+              fill="rgba(251,191,36,0.55)"/>
       </svg>
     </div>
 
@@ -73,25 +73,25 @@
         <path d="M55 0V46" stroke="rgba(60,60,60,0.35)" stroke-width="3" stroke-linecap="round"/>
         <circle cx="55" cy="54" r="7" fill="rgba(60,60,60,0.18)"/>
 
-        <circle class="glow" cx="55" cy="130" r="44" fill="rgba(30,64,175,0.18)"/>
+        <circle class="glow" cx="55" cy="130" r="44" fill="rgba(251,191,36,0.45)"/>
 
         <path d="M37 74C37 56 55 46 55 46C55 46 73 56 73 74V82H37V74Z"
               fill="rgba(255,255,255,0.88)"
-              stroke="rgba(30,64,175,0.58)"
+              stroke="rgba(251,191,36,0.85)"
               stroke-width="3"/>
 
         <ellipse cx="55" cy="122" rx="29" ry="35"
                  fill="rgba(255,255,255,0.88)"
-                 stroke="rgba(30,64,175,0.52)"
+                 stroke="rgba(251,191,36,0.8)"
                  stroke-width="3"/>
 
-        <path d="M28 122H82" stroke="rgba(30,64,175,0.22)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M28 122H82" stroke="rgba(251,191,36,0.5)" stroke-width="3" stroke-linecap="round"/>
 
         <path class="light"
               d="M28 160C40 178 70 178 82 160
                  C74 174 64 192 55 192
                  C46 192 36 174 28 160Z"
-              fill="rgba(30,64,175,0.19)"/>
+              fill="rgba(251,191,36,0.5)"/>
       </svg>
     </div>
 
@@ -103,25 +103,25 @@
         <path d="M55 0V46" stroke="rgba(60,60,60,0.35)" stroke-width="3" stroke-linecap="round"/>
         <circle cx="55" cy="54" r="7" fill="rgba(60,60,60,0.18)"/>
 
-        <circle class="glow" cx="55" cy="130" r="38" fill="rgba(30,64,175,0.16)"/>
+        <circle class="glow" cx="55" cy="130" r="38" fill="rgba(251,191,36,0.4)"/>
 
         <path d="M39 78C39 62 55 54 55 54C55 54 71 62 71 78V86H39V78Z"
               fill="rgba(255,255,255,0.86)"
-              stroke="rgba(30,64,175,0.48)"
+              stroke="rgba(251,191,36,0.8)"
               stroke-width="3"/>
 
         <ellipse cx="55" cy="126" rx="25" ry="30"
                  fill="rgba(255,255,255,0.86)"
-                 stroke="rgba(30,64,175,0.45)"
+                 stroke="rgba(251,191,36,0.75)"
                  stroke-width="3"/>
 
-        <path d="M33 126H77" stroke="rgba(30,64,175,0.18)" stroke-width="3" stroke-linecap="round"/>
+        <path d="M33 126H77" stroke="rgba(251,191,36,0.45)" stroke-width="3" stroke-linecap="round"/>
 
         <path class="light"
               d="M32 160C42 172 68 172 78 160
                  C71 171 62 184 55 184
                  C48 184 39 171 32 160Z"
-              fill="rgba(30,64,175,0.16)"/>
+              fill="rgba(251,191,36,0.48)"/>
       </svg>
     </div>
 
@@ -141,7 +141,7 @@
 
         <h1 class="mt-4 text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-slate-50">
           Ramadhan Kareem
-          <span class="block text-sky-500 mt-1">
+          <span class="block text-amber-400 mt-1">
             SIT Auladi Palembang
           </span>
         </h1>
@@ -221,7 +221,7 @@
 
 <!-- KEGIATAN -->
 <section id="kegiatan" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16 mt-10 text-center">
-  <h2 class="text-2xl md:text-3xl font-extrabold text-slate-100">Kegiatan Ramadhan</h2>
+  <h2 class="text-2xl md:text-3xl font-extrabold text-slate-100">Apa Yang Ada di Auladi</h2>
   <p class="mt-2 text-slate-200 max-w-2xl mx-auto">
     Rangkaian kegiatan Ramadhan SIT Auladi disusun untuk memperkuat ibadah, karakter, dan kebersamaan.
     Setiap kegiatan didampingi guru pembina dan terdokumentasi secara berkala.
@@ -271,7 +271,7 @@
   <div class="mt-10">
     <div class="flex flex-col items-center justify-center gap-2 text-center">
       <h3 class="text-xl font-bold text-slate-100">Dokumentasi Kegiatan</h3>
-      <p class="text-sm text-slate-300">Ringkasan dokumentasi per kegiatan untuk arsip sekolah.</p>
+      <p class="text-sm text-slate-300">Dokumentasi kegiatan seperti selang dulu Auladi, dirangkum sebagai kenangan bersama.</p>
     </div>
 
     <div class="mt-6 grid md:grid-cols-3 gap-5">
