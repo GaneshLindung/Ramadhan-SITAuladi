@@ -11,17 +11,17 @@
    TEMA BRAND SIT AULADI
    ========================= */
 @theme {
-  /* ORANGE brand (sesuaikan dengan logo SIT Auladi) */
-  --color-brand-50:  #FFF7ED;
-  --color-brand-100: #FFEDD5;
-  --color-brand-200: #FED7AA;
-  --color-brand-300: #FDBA74;
-  --color-brand-400: #FB923C;
-  --color-brand-500: #F57F25; /* ORANGE UTAMA (header) */
-  --color-brand-600: #EA580C;
-  --color-brand-700: #C2410C;
-  --color-brand-800: #9A3412;
-  --color-brand-900: #7C2D12;
+  /* DARK BLUE brand */
+  --color-brand-50:  #EFF6FF;
+  --color-brand-100: #DBEAFE;
+  --color-brand-200: #BFDBFE;
+  --color-brand-300: #93C5FD;
+  --color-brand-400: #60A5FA;
+  --color-brand-500: #1E40AF; /* DARK BLUE UTAMA (header) */
+  --color-brand-600: #1E3A8A;
+  --color-brand-700: #172554;
+  --color-brand-800: #0F172A;
+  --color-brand-900: #0B1120;
 
   /* Font tetap */
   --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif;

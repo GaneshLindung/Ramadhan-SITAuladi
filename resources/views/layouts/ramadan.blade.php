@@ -8,10 +8,10 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="min-h-screen antialiased text-slate-700 bg-brand-50/70 relative">
+<body class="min-h-screen antialiased text-slate-100 bg-brand-900 relative">
 
-  <!-- GLOBAL CREAM OVERLAY (penetral tone agar tidak gelap) -->
-  <div class="fixed inset-0 -z-10 bg-gradient-to-b from-brand-50/95 via-brand-50/85 to-white"></div>
+  <!-- GLOBAL DARK BLUE OVERLAY -->
+  <div class="fixed inset-0 -z-10 bg-gradient-to-b from-brand-900/95 via-brand-800/90 to-brand-700/80"></div>
 
   <!-- HEADER -->
   <header
@@ -31,18 +31,12 @@
             alt="Logo SIT Auladi Palembang"
             class="h-12 w-auto object-contain"
           >
-          <span
-            style="font-family: 'Playfair Display', serif;"
-            class="text-lg sm:text-xl md:text-2xl font-bold tracking-wide text-brand-500 leading-tight"
-          >
-            SIT Auladi Palembang
-          </span>
         </a>
 
         <button
           id="mobile-menu-button"
           type="button"
-          class="inline-flex items-center justify-center rounded-lg border border-brand-200 bg-white/80 px-3 py-2 text-brand-500 shadow-sm transition hover:bg-white md:hidden"
+          class="inline-flex items-center justify-center rounded-lg border border-brand-200 bg-white/80 px-3 py-2 text-[#D4AF37] shadow-sm transition hover:bg-white md:hidden"
           aria-controls="site-nav"
           aria-expanded="false"
         >
@@ -60,6 +54,7 @@
         id="site-nav"
       >
         <a href="#materi" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Video Materi</a>
+        <a href="#quotes" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Quotes Ramadhan</a>
         <a href="#kegiatan" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Kegiatan Ramadhan</a>
         <a href="#jadwal" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Jadwal Ramadhan</a>
       </nav>
@@ -94,7 +89,7 @@
           <div class="flex items-center gap-3">
             <a
               href="#"
-              class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-100 bg-white text-brand-500 shadow-sm transition hover:border-brand-200 hover:text-brand-600"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-100 bg-white text-[#D4AF37] shadow-sm transition hover:border-brand-200 hover:text-[#C9982A]"
               aria-label="Facebook SIT Auladi"
             >
               <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -103,7 +98,7 @@
             </a>
             <a
               href="#"
-              class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-100 bg-white text-brand-500 shadow-sm transition hover:border-brand-200 hover:text-brand-600"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-100 bg-white text-[#D4AF37] shadow-sm transition hover:border-brand-200 hover:text-[#C9982A]"
               aria-label="Instagram SIT Auladi"
             >
               <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -112,7 +107,7 @@
             </a>
             <a
               href="#"
-              class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-100 bg-white text-brand-500 shadow-sm transition hover:border-brand-200 hover:text-brand-600"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-100 bg-white text-[#D4AF37] shadow-sm transition hover:border-brand-200 hover:text-[#C9982A]"
               aria-label="YouTube SIT Auladi"
             >
               <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -125,6 +120,7 @@
         <div class="text-sm text-slate-600">
           <div class="space-y-2">
             <a href="#materi" class="block hover:text-brand-600 transition">Video Materi</a>
+            <a href="#quotes" class="block hover:text-brand-600 transition">Quotes Ramadhan</a>
             <a href="#kegiatan" class="block hover:text-brand-600 transition">Kegiatan Ramadhan</a>
             <a href="#jadwal" class="block hover:text-brand-600 transition">Jadwal Ramadhan</a>
           </div>
