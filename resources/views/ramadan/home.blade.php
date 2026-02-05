@@ -270,8 +270,8 @@
 
   <div class="mt-10">
     <div class="flex flex-col items-center justify-center gap-2 text-center">
-      <h3 class="text-xl font-bold text-slate-100">Dokumentasi Kegiatan</h3>
-      <p class="text-sm text-slate-300">Dokumentasi kegiatan seperti selang dulu Auladi, dirangkum sebagai kenangan bersama.</p>
+      <h3 class="text-xl font-bold text-slate-100">Kegiatan</h3>
+      <p class="text-sm text-slate-300">Rangkuman kegiatan Ramadhan SIT Auladi, dirangkum sebagai kenangan bersama.</p>
     </div>
 
     <div class="mt-6 grid md:grid-cols-3 gap-5">
