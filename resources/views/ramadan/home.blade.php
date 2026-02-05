@@ -204,18 +204,20 @@
 </section>
 
 <!-- QUOTES -->
-<section id="quotes" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16 mt-10 text-center">
-  <div class="rounded-3xl border border-[var(--color-brand-500)]/20 bg-white/90 p-5 shadow-sm">
-    <div class="text-xs md:text-sm uppercase tracking-[0.3em] text-[var(--color-brand-600)]">Quotes Ramadhan</div>
-    <p class="mt-3 text-base md:text-lg font-semibold text-slate-800 italic leading-relaxed">
+<section id="quotes" class="scroll-mt-28 w-full mt-6 text-center">
+  <div class="w-full border-y border-[var(--color-brand-500)]/15 bg-white/10 px-6 py-8 md:py-10">
+    <div class="mx-auto w-full max-w-4xl">
+      <div class="text-xs md:text-sm uppercase tracking-[0.3em] text-[var(--color-brand-600)]">Quotes Ramadhan</div>
+      <p class="mt-3 text-base md:text-lg font-semibold text-slate-100 italic leading-relaxed">
       <span class="block">"Sesungguhnya bersama kesulitan</span>
       <span class="block">ada kemudahan, bersama kesabaran</span>
       <span class="block">ada jalan keluar, bersama doa</span>
       <span class="block">ada harapan, bersama ikhtiar</span>
       <span class="block">ada pertolongan, dan bersama</span>
       <span class="block">keyakinan ada kemenangan."</span>
-    </p>
-    <div class="mt-2 text-xs md:text-sm font-semibold text-slate-600">QS. Al-Insyirah: 6 (dirangkaikan)</div>
+      </p>
+      <div class="mt-3 text-xs md:text-sm font-semibold text-slate-200">QS. Al-Insyirah: 6 (dirangkaikan)</div>
+    </div>
   </div>
 </section>
 
@@ -270,7 +272,7 @@
 
   <div class="mt-10">
     <div class="flex flex-col items-center justify-center gap-2 text-center">
-      <h3 class="text-xl font-bold text-slate-100">Kegiatan</h3>
+      <h2 class="text-2xl md:text-3xl font-extrabold text-slate-100">Kegiatan</h2>
       <p class="text-sm text-slate-300">Rangkuman kegiatan Ramadhan SIT Auladi, dirangkum sebagai kenangan bersama.</p>
     </div>
 
