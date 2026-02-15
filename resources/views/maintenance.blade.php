@@ -50,7 +50,7 @@
         .content-ready { animation: contentAppear .7s ease forwards; }
     </style>
 </head>
-<body class="h-screen w-screen overflow-hidden bg-slate-950 text-slate-100">
+<body class="min-h-screen min-h-[100dvh] w-screen overflow-hidden bg-slate-950 text-slate-100">
     <div id="preloader" class="fixed inset-0 z-[100] flex flex-col items-center justify-center gap-6 bg-slate-950">
         <div class="relative flex h-20 w-20 items-center justify-center">
             <span class="absolute inset-0 rounded-full border-4 border-amber-300/20"></span>
@@ -60,7 +60,7 @@
         <p class="text-xs font-semibold uppercase tracking-[0.35em] text-amber-300">Loading Maintenance Page</p>
     </div>
 
-    <main id="maintenance-content" class="relative h-screen w-screen overflow-hidden opacity-0">
+    <main id="maintenance-content" class="relative min-h-screen min-h-[100dvh] w-screen overflow-hidden opacity-0">
         <div class="absolute inset-0">
             <img src="{{ asset('images/bg-ramadan2.jpg') }}" alt="Background Ramadhan" class="h-full w-full object-cover opacity-25">
             <div class="absolute inset-0 bg-gradient-to-br from-slate-950/95 via-slate-900/90 to-slate-950/95"></div>
@@ -73,7 +73,7 @@
             <span class="absolute right-[28%] bottom-[24%] h-1.5 w-1.5 rounded-full bg-white" style="animation: twinkle 2s infinite .8s;"></span>
         </div>
 
-        <section class="relative z-10 flex h-full w-full items-center justify-center px-4 py-4 md:px-6 md:py-6">
+        <section class="relative z-10 flex min-h-screen min-h-[100dvh] w-full items-center justify-center px-4 py-4 md:px-6 md:py-6">
             <div class="relative h-full w-full max-w-[1366px] overflow-hidden rounded-[2rem] border border-amber-200/25 bg-slate-900/70 p-8 text-center shadow-[0_0_80px_rgba(251,191,36,0.12)] backdrop-blur-xl md:p-12 flex flex-col items-center justify-center">
                 <div class="absolute -top-24 -left-16 h-56 w-56 rounded-full bg-amber-300/10 blur-3xl"></div>
                 <div class="absolute -right-20 -bottom-20 h-56 w-56 rounded-full bg-indigo-300/10 blur-3xl"></div>

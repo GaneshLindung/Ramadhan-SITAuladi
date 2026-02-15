@@ -3,5 +3,5 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Ramadan\HomeController;
 
-Route::view('/', 'maintenance')->name('maintenance');
-Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::view('/maintenance', 'maintenance')->name('maintenance');
