@@ -362,138 +362,148 @@
 
 <!-- VIDEO MATERI -->
 <section id="materi" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16 text-center">
-  <h2 class="text-2xl md:text-3xl font-extrabold text-slate-100">Video Materi</h2>
-  <p class="mt-2 text-slate-200 max-w-2xl mx-auto">
-    Materi Ramadhan untuk siswa dan orang tua, berisi penguatan ibadah, adab, dan motivasi belajar.
-    Silakan ganti tautan video YouTube sesuai kebutuhan.
+  <h2 class="text-2xl md:text-3xl font-extrabold text-slate-100">Video Materi Tausiyah</h2>
+  <p class="mt-2 text-slate-200 max-w-3xl mx-auto">
+    Video materi disusun per minggu agar selaras dengan pelaksanaan jadwal tausiyah Ramadhan di tiap cabang.
   </p>
 
-  <div class="mt-8 grid md:grid-cols-2 gap-6">
-    <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm text-center">
-      <div class="font-bold text-slate-800">Kajian Ramadhan: Adab Puasa</div>
-      <div class="mt-2 text-sm text-slate-600">
-        Pemateri: Ustaz Ahmad | Durasi: 18 menit | Target: SD-SMP
-      </div>
-      <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
-        <iframe class="w-full h-full"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          title="Video Materi"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </div>
-    </div>
+  @php
+    $videoMateriByMinggu = [
+      'Minggu 1' => [
+        ['no' => 1, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'TK SU2', 'tema' => 'Makna Ramadhan: Tujuan Pendidikan Jiwa'],
+        ['no' => 2, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'TK Pakjo', 'tema' => 'Niat Puasa: Mengapa Niat Itu Penting?'],
+        ['no' => 3, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'TK Sako', 'tema' => 'Puasa Bukan Sekadar Lapar dan Haus'],
+        ['no' => 4, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'SU2', 'tema' => 'Ramadhan sebagai Kesempatan Memperbaiki Diri'],
+        ['no' => 5, 'penceramah' => 'Ust. Nur Muhammad', 'cabang' => 'Pakjo', 'tema' => 'Mengapa Ramadhan Disebut Bulan Al-Qur’an'],
+        ['no' => 6, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'Sako', 'tema' => 'Keutamaan Orang yang Berpuasa'],
+        ['no' => 7, 'penceramah' => 'Ust. Sisharyadi', 'cabang' => 'Jakbar', 'tema' => 'Ramadhan dan Pengendalian Diri'],
+      ],
+      'Minggu 2' => [
+        ['no' => 8, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'Semabor', 'tema' => 'Puasa Melatih Kejujuran'],
+        ['no' => 9, 'penceramah' => 'Ust. Farurozi', 'cabang' => 'SU2', 'tema' => 'Shalat Tepat Waktu di Bulan Ramadhan'],
+        ['no' => 10, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'Pakjo', 'tema' => 'Keutamaan Membaca Al-Qur’an Setiap Hari'],
+        ['no' => 11, 'penceramah' => 'Ust. Andre', 'cabang' => 'Sako', 'tema' => 'Sedekah di Bulan Ramadhan: Kecil tapi Bermakna'],
+        ['no' => 12, 'penceramah' => 'Menteri Agama Osis', 'cabang' => 'Jakbar', 'tema' => 'Doa Orang Berpuasa yang Mustajab'],
+        ['no' => 13, 'penceramah' => 'Ust. Fikri', 'cabang' => 'Semabor', 'tema' => 'Menjaga Lisan Saat Berpuasa'],
+        ['no' => 14, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'SU2', 'tema' => 'Puasa dan Disiplin Waktu'],
+      ],
+      'Minggu 3' => [
+        ['no' => 15, 'penceramah' => 'Ust. Yunus', 'cabang' => 'Pakjo', 'tema' => 'Puasa Mengajarkan Kesabaran'],
+        ['no' => 16, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'Jakbar', 'tema' => 'Menahan Amarah di Bulan Ramadhan'],
+        ['no' => 17, 'penceramah' => 'Ust. Ridho', 'cabang' => 'SU2', 'tema' => 'Ramadhan dan Sikap Saling Menghargai'],
+        ['no' => 18, 'penceramah' => 'Menteri Agama', 'cabang' => 'Semabor', 'tema' => 'Puasa dan Empati kepada Sesama'],
+        ['no' => 19, 'penceramah' => 'Ust. Donis', 'cabang' => 'Pakjo', 'tema' => 'Menghindari Ghibah dan Perkataan Buruk'],
+        ['no' => 20, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'Sako', 'tema' => 'Ramadhan sebagai Latihan Akhlak Mulia'],
+        ['no' => 21, 'penceramah' => 'Ust. Hafiz', 'cabang' => 'SU2', 'tema' => 'Berbagi dan Peduli di Bulan Ramadhan'],
+      ],
+      'Minggu 4' => [
+        ['no' => 22, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'Pakjo', 'tema' => 'Makna Idul Fitri: Kembali Suci'],
+        ['no' => 23, 'penceramah' => 'Ust. Angga', 'cabang' => 'SU2', 'tema' => 'Zakat Fitrah: Penyempurna Ibadah Puasa'],
+        ['no' => 24, 'penceramah' => 'Ust. Agus', 'cabang' => 'Semabor', 'tema' => 'Siapa dan Kapan Membayar Zakat Fitrah?'],
+        ['no' => 25, 'penceramah' => 'Ust. Dedi', 'cabang' => 'Pakjo', 'tema' => 'Hikmah Zakat Fitrah bagi Sesama'],
+        ['no' => 26, 'penceramah' => 'Ust. Abil', 'cabang' => 'SU2', 'tema' => 'Lailatul Qadar: Malam Lebih Baik dari Seribu Bulan'],
+        ['no' => 27, 'penceramah' => 'Ust. Eki', 'cabang' => 'Semabor', 'tema' => 'Ramadhan Hampir Usai, Apa yang Kita Dapatkan?'],
+        ['no' => 28, 'penceramah' => 'Ust. Muhtarom', 'cabang' => 'Semabor', 'tema' => 'Istiqomah Setelah Ramadhan'],
+        ['no' => 29, 'penceramah' => 'Ust. Muslim', 'cabang' => 'Semabor', 'tema' => 'Menjaga Ibadah Setelah Idul Fitri'],
+      ],
+    ];
+  @endphp
 
-    <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm text-center">
-      <div class="font-bold text-slate-800">Kultum Singkat: Keutamaan Ramadhan</div>
-      <div class="mt-2 text-sm text-slate-600">
-        Pemateri: Ustazah Nisa | Durasi: 12 menit | Target: TK-SD
-      </div>
-      <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
-        <iframe class="w-full h-full"
-          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-          title="Video Materi"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-      </div>
-    </div>
+  <div class="mt-8 space-y-6 text-left">
+    @foreach ($videoMateriByMinggu as $minggu => $items)
+      <details class="group rounded-3xl border border-[var(--color-brand-500)]/20 bg-white/85 p-5" @if ($loop->first) open @endif>
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-2">
+          <span class="text-base md:text-lg font-extrabold text-[var(--color-brand-700)]">{{ $minggu }}</span>
+          <span class="text-xs md:text-sm font-semibold text-slate-500">{{ count($items) }} materi</span>
+        </summary>
+
+        <div class="mt-4 grid md:grid-cols-2 gap-5">
+          @foreach ($items as $item)
+            <article class="rounded-2xl border border-[var(--color-brand-500)]/15 bg-white p-4 shadow-sm text-center">
+              <div class="text-xs font-bold text-[var(--color-brand-600)]">Materi #{{ $item['no'] }}</div>
+              <h3 class="mt-1 text-sm md:text-base font-bold text-slate-800">{{ $item['tema'] }}</h3>
+              <p class="mt-2 text-xs md:text-sm text-slate-600">Pemateri: {{ $item['penceramah'] }} | Cabang: {{ $item['cabang'] }}</p>
+
+              <div class="mt-3 aspect-video rounded-xl overflow-hidden border border-[var(--color-brand-500)]/10">
+                <iframe class="w-full h-full"
+                  loading="lazy"
+                  src="https://www.youtube.com/embed?listType=search&list={{ urlencode('tausiyah ramadhan '.$item['tema'].' '.$item['penceramah']) }}"
+                  title="Video Materi Tausiyah {{ $item['tema'] }}"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+            </article>
+          @endforeach
+        </div>
+      </details>
+    @endforeach
   </div>
-
-  <details class="mt-6 group">
-    <summary class="inline-flex items-center justify-center gap-2 rounded-2xl border border-[var(--color-brand-500)]/30 bg-white/80 px-5 py-2 text-sm font-semibold text-[var(--color-brand-600)] transition hover:border-[var(--color-brand-500)]/60">
-      Lihat lainnya
-      <span class="text-lg leading-none transition group-open:rotate-90">›</span>
-    </summary>
-    <div class="mt-5 grid md:grid-cols-2 gap-6">
-      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm text-center">
-        <div class="font-bold text-slate-800">Motivasi Belajar: Ramadhan Produktif</div>
-        <div class="mt-2 text-sm text-slate-600">
-          Pemateri: Tim BK | Durasi: 15 menit | Target: SMP
-        </div>
-        <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
-          <iframe class="w-full h-full"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Video Materi"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-
-      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 p-6 shadow-sm text-center">
-        <div class="font-bold text-slate-800">Fiqih Puasa: Tanya Jawab</div>
-        <div class="mt-2 text-sm text-slate-600">
-          Pemateri: Ustaz Khalid | Durasi: 20 menit | Target: Orang tua
-        </div>
-        <div class="mt-4 aspect-video rounded-2xl overflow-hidden border border-[var(--color-brand-500)]/10">
-          <iframe class="w-full h-full"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="Video Materi"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-  </details>
 </section>
+
 
 <!-- JADWAL -->
 <section id="jadwal" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16 text-center">
   <h2 class="text-2xl md:text-3xl font-extrabold text-slate-100">Jadwal Kegiatan Ramadhan</h2>
-  <p class="mt-2 text-slate-200 max-w-2xl mx-auto">
-    Jadwal berikut dapat disesuaikan oleh wali kelas dan panitia. Waktu bersifat estimasi dan
-    dapat berubah sesuai kondisi sekolah.
+  <p class="mt-2 text-slate-200 max-w-3xl mx-auto">
+    Jadwal berikut mengikuti tema tausiyah Ramadhan setiap minggu sesuai cabang.
   </p>
 
   <div class="mt-8 overflow-x-auto rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 shadow-sm">
     <table class="min-w-full text-sm text-center">
       <thead class="bg-[var(--color-brand-50)]">
         <tr class="text-center text-slate-700">
-          <th class="px-6 py-4 font-bold">Tanggal</th>
-          <th class="px-6 py-4 font-bold">Kegiatan</th>
-          <th class="px-6 py-4 font-bold">Waktu</th>
-          <th class="px-6 py-4 font-bold">Tempat</th>
+          <th class="px-4 py-3 font-bold">No</th>
+          <th class="px-6 py-3 font-bold">Penceramah</th>
+          <th class="px-6 py-3 font-bold">Cabang</th>
+          <th class="px-6 py-3 font-bold">Tema</th>
         </tr>
       </thead>
-      <tbody class="divide-y divide-[var(--color-brand-500)]/10">
-        <tr class="text-slate-700">
-          <td class="px-6 py-4">Senin, 11 Maret</td>
-          <td class="px-6 py-4">Pembukaan Ramadhan & Tausiyah</td>
-          <td class="px-6 py-4">07.30 - 09.00</td>
-          <td class="px-6 py-4">Aula</td>
+      <tbody class="divide-y divide-[var(--color-brand-500)]/10 text-slate-700">
+        <tr class="bg-[var(--color-brand-50)]/80 font-bold text-[var(--color-brand-700)]">
+          <td colspan="4" class="px-6 py-2">MINGGU 1</td>
         </tr>
-        <tr class="text-slate-700">
-          <td class="px-6 py-4">Selasa, 12 Maret</td>
-          <td class="px-6 py-4">Pesantren Kilat: Fiqih Puasa</td>
-          <td class="px-6 py-4">08.00 - 10.00</td>
-          <td class="px-6 py-4">Kelas</td>
+        <tr><td class="px-4 py-3">1</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK SU2</td><td class="px-6 py-3">Makna Ramadhan: Tujuan Pendidikan Jiwa</td></tr>
+        <tr><td class="px-4 py-3">2</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK Pakjo</td><td class="px-6 py-3">Niat Puasa: Mengapa Niat Itu Penting?</td></tr>
+        <tr><td class="px-4 py-3">3</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK Sako</td><td class="px-6 py-3">Puasa Bukan Sekadar Lapar dan Haus</td></tr>
+        <tr><td class="px-4 py-3">4</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Ramadhan sebagai Kesempatan Memperbaiki Diri</td></tr>
+        <tr><td class="px-4 py-3">5</td><td class="px-6 py-3">Ust. Nur Muhammad</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Mengapa Ramadhan Disebut Bulan Al-Qur’an</td></tr>
+        <tr><td class="px-4 py-3">6</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Keutamaan Orang yang Berpuasa</td></tr>
+        <tr><td class="px-4 py-3">7</td><td class="px-6 py-3">Ust. Sisharyadi</td><td class="px-6 py-3">Jakbar</td><td class="px-6 py-3">Ramadhan dan Pengendalian Diri</td></tr>
+
+        <tr class="bg-[var(--color-brand-50)]/80 font-bold text-[var(--color-brand-700)]">
+          <td colspan="4" class="px-6 py-2">MINGGU 2</td>
         </tr>
-        <tr class="text-slate-700">
-          <td class="px-6 py-4">Rabu, 13 Maret</td>
-          <td class="px-6 py-4">Tadarus & Kultum Siswa</td>
-          <td class="px-6 py-4">07.00 - 08.00</td>
-          <td class="px-6 py-4">Musala</td>
+        <tr><td class="px-4 py-3">8</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Puasa Melatih Kejujuran</td></tr>
+        <tr><td class="px-4 py-3">9</td><td class="px-6 py-3">Ust. Farurozi</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Shalat Tepat Waktu di Bulan Ramadhan</td></tr>
+        <tr><td class="px-4 py-3">10</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Keutamaan Membaca Al-Qur’an Setiap Hari</td></tr>
+        <tr><td class="px-4 py-3">11</td><td class="px-6 py-3">Ust. Andre</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Sedekah di Bulan Ramadhan: Kecil tapi Bermakna</td></tr>
+        <tr><td class="px-4 py-3">12</td><td class="px-6 py-3">Menteri Agama Osis</td><td class="px-6 py-3">Jakbar</td><td class="px-6 py-3">Doa Orang Berpuasa yang Mustajab</td></tr>
+        <tr><td class="px-4 py-3">13</td><td class="px-6 py-3">Ust. Fikri</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Menjaga Lisan Saat Berpuasa</td></tr>
+        <tr><td class="px-4 py-3">14</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Puasa dan Disiplin Waktu</td></tr>
+
+        <tr class="bg-[var(--color-brand-50)]/80 font-bold text-[var(--color-brand-700)]">
+          <td colspan="4" class="px-6 py-2">MINGGU 3</td>
         </tr>
-        <tr class="text-slate-700">
-          <td class="px-6 py-4">Kamis, 14 Maret</td>
-          <td class="px-6 py-4">Kelas Karakter: Adab Berpuasa</td>
-          <td class="px-6 py-4">09.30 - 11.00</td>
-          <td class="px-6 py-4">Aula</td>
+        <tr><td class="px-4 py-3">15</td><td class="px-6 py-3">Ust. Yunus</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Puasa Mengajarkan Kesabaran</td></tr>
+        <tr><td class="px-4 py-3">16</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Jakbar</td><td class="px-6 py-3">Menahan Amarah di Bulan Ramadhan</td></tr>
+        <tr><td class="px-4 py-3">17</td><td class="px-6 py-3">Ust. Ridho</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Ramadhan dan Sikap Saling Menghargai</td></tr>
+        <tr><td class="px-4 py-3">18</td><td class="px-6 py-3">Menteri Agama</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Puasa dan Empati kepada Sesama</td></tr>
+        <tr><td class="px-4 py-3">19</td><td class="px-6 py-3">Ust. Doris</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Menghindari Ghibah dan Perkataan Buruk</td></tr>
+        <tr><td class="px-4 py-3">20</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Ramadhan sebagai Latihan Akhlak Mulia</td></tr>
+        <tr><td class="px-4 py-3">21</td><td class="px-6 py-3">Ust. Hafiz</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Berbagi dan Peduli di Bulan Ramadhan</td></tr>
+
+        <tr class="bg-[var(--color-brand-50)]/80 font-bold text-[var(--color-brand-700)]">
+          <td colspan="4" class="px-6 py-2">MINGGU 4</td>
         </tr>
-        <tr class="text-slate-700">
-          <td class="px-6 py-4">Jumat, 15 Maret</td>
-          <td class="px-6 py-4">Pengumpulan Zakat & Infak</td>
-          <td class="px-6 py-4">07.00 - 08.30</td>
-          <td class="px-6 py-4">Posko Amal</td>
-        </tr>
-        <tr class="text-slate-700">
-          <td class="px-6 py-4">Jumat, 22 Maret</td>
-          <td class="px-6 py-4">Buka Bersama & Doa</td>
-          <td class="px-6 py-4">16.30 - 19.00</td>
-          <td class="px-6 py-4">Aula</td>
-        </tr>
+        <tr><td class="px-4 py-3">22</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Makna Idul Fitri: Kembali Suci</td></tr>
+        <tr><td class="px-4 py-3">23</td><td class="px-6 py-3">Ust. Angga</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Zakat Fitrah: Penyempurna Ibadah Puasa</td></tr>
+        <tr><td class="px-4 py-3">24</td><td class="px-6 py-3">Ust. Agus</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Siapa dan Kapan Membayar Zakat Fitrah?</td></tr>
+        <tr><td class="px-4 py-3">25</td><td class="px-6 py-3">Ust. Dedi</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Hikmah Zakat Fitrah bagi Sesama</td></tr>
+        <tr><td class="px-4 py-3">26</td><td class="px-6 py-3">Ust. Abil</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Lailatul Qadar: Malam Lebih Baik dari Seribu Bulan</td></tr>
+        <tr><td class="px-4 py-3">27</td><td class="px-6 py-3">Ust. Eki</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Ramadhan Hampir Usai, Apa yang Kita Dapatkan?</td></tr>
+        <tr><td class="px-4 py-3">28</td><td class="px-6 py-3">Ust. Muhtarom</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Istiqomah Setelah Ramadhan</td></tr>
+        <tr><td class="px-4 py-3">29</td><td class="px-6 py-3">Ust. Muslim</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Menjaga Ibadah Setelah Idul Fitri</td></tr>
       </tbody>
     </table>
   </div>
