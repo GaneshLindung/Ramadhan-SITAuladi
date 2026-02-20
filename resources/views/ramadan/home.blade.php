@@ -133,7 +133,7 @@
       <div class="w-full md:max-w-3xl mx-auto flex flex-col items-center text-center">
 
         <!-- Ucapan -->
-        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full translate-y-0 md:translate-y-5
+        <div class="mt-2 md:mt-0 inline-flex items-center gap-2 px-4 py-2 rounded-full translate-y-0 md:translate-y-5
                     bg-white/15 border border-white/20 backdrop-blur
                     text-sm text-slate-100">
           🌙 Selamat Menunaikan Ibadah Puasa Ramadhan
@@ -154,29 +154,34 @@
         <div class="mt-4 md:mt-5 w-full max-w-3xl mx-auto rounded-3xl border border-[var(--color-brand-500)]/25
                     bg-gradient-to-br from-white/90 via-white/70 to-[var(--color-brand-50)]/80
                     backdrop-blur p-6 shadow-lg shadow-[var(--color-brand-500)]/10">
-          <div class="flex flex-wrap items-start justify-between gap-4 text-left">
-            <div class="flex items-center gap-3 text-left">
-              <div class="flex h-12 w-12 items-center justify-center rounded-2xl
-                          bg-[var(--color-brand-500)]/10 text-2xl">
-                ✨
-              </div>
-              <div>
-                <div class="text-xs uppercase tracking-widest text-[var(--color-brand-600)]">
-                  Countdown menuju
+            <div class="flex items-center justify-between gap-3 text-left flex-nowrap sm:flex-wrap">
+              <!-- Kiri: Judul -->
+              <div class="flex items-center gap-3 text-left flex-1 min-w-0">
+                <div class="flex h-12 w-12 items-center justify-center rounded-2xl
+                            bg-[var(--color-brand-500)]/10 text-2xl shrink-0">
+                  ✨
                 </div>
-                <div class="text-2xl font-extrabold text-slate-800">Idul Fitri</div>
+                <div class="min-w-0">
+                  <div class="text-xs uppercase tracking-widest text-[var(--color-brand-600)]">
+                    Countdown menuju
+                  </div>
+                  <div class="text-2xl font-extrabold text-slate-800 truncate">
+                    Idul Fitri
+                  </div>
+                </div>
               </div>
+            
+              <!-- Kanan: Tombol -->
+              <a href="#jadwal"
+                 class="inline-flex items-center gap-2 px-3 py-2 rounded-xl
+                        bg-[var(--color-brand-500)] text-white font-semibold text-sm
+                        shadow-md shadow-[var(--color-brand-500)]/30
+                        hover:bg-[var(--color-brand-600)] transition
+                        shrink-0 whitespace-nowrap">
+                Lihat Jadwal
+                <span aria-hidden="true">→</span>
+              </a>
             </div>
-
-            <a href="#jadwal"
-               class="inline-flex items-center gap-2 px-4 py-2 rounded-xl ml-auto
-                      bg-[var(--color-brand-500)] text-white font-semibold
-                      shadow-md shadow-[var(--color-brand-500)]/30
-                      hover:bg-[var(--color-brand-600)] transition">
-              Lihat Jadwal
-              <span aria-hidden="true">→</span>
-            </a>
-          </div>
 
           <div class="mt-5 grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
             <div class="rounded-2xl bg-white/90 border border-[var(--color-brand-500)]/15 p-4">

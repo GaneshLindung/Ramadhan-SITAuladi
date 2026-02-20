@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>@yield('title', 'Ramadhan SIT Auladi')</title>
-  <meta name="description" content="@yield('meta', 'Informasi kegiatan Ramadhan SIT Auladi')">
+  <title>@yield('title', 'Ramadan SIT Auladi')</title>
+  <meta name="description" content="@yield('meta', 'Informasi kegiatan Ramadan SIT Auladi')">
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
@@ -54,9 +54,9 @@
         id="site-nav"
       >
         <a href="#materi" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Video Materi</a>
-        <a href="#quotes" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Quotes Ramadhan</a>
-        <a href="#kegiatan" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Kegiatan Ramadhan</a>
-        <a href="#jadwal" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Jadwal Ramadhan</a>
+        <a href="#quotes" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Quotes Ramadan</a>
+        <a href="#kegiatan" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Kegiatan Ramadan</a>
+        <a href="#jadwal" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Jadwal Ramadan</a>
       </nav>
 
     </div>
@@ -84,7 +84,7 @@
             </div>
           </div>
           <p class="text-sm text-slate-600 leading-relaxed">
-            Informasi resmi seputar kegiatan Ramadhan SIT Auladi Palembang.
+            Informasi resmi seputar kegiatan Ramadan SIT Auladi Palembang.
           </p>
           <div class="flex items-center gap-3">
             <a
@@ -120,9 +120,9 @@
         <div class="text-sm text-slate-600">
           <div class="space-y-2">
             <a href="#materi" class="block hover:text-brand-600 transition">Video Materi</a>
-            <a href="#quotes" class="block hover:text-brand-600 transition">Quotes Ramadhan</a>
-            <a href="#kegiatan" class="block hover:text-brand-600 transition">Kegiatan Ramadhan</a>
-            <a href="#jadwal" class="block hover:text-brand-600 transition">Jadwal Ramadhan</a>
+            <a href="#quotes" class="block hover:text-brand-600 transition">Quotes Ramadan</a>
+            <a href="#kegiatan" class="block hover:text-brand-600 transition">Kegiatan Ramadan</a>
+            <a href="#jadwal" class="block hover:text-brand-600 transition">Jadwal Ramadan</a>
           </div>
         </div>
       </div>
