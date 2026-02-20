@@ -165,7 +165,7 @@
                   <div class="text-xs uppercase tracking-widest text-[var(--color-brand-600)]">
                     Countdown menuju
                   </div>
-                  <div class="text-2xl font-extrabold text-slate-800 truncate">
+                  <div class="text-xl sm:text-2xl font-extrabold text-slate-800 leading-tight">
                     Idul Fitri
                   </div>
                 </div>
