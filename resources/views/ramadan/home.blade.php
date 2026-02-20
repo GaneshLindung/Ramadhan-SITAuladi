@@ -229,30 +229,138 @@
 <section id="kegiatan" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16 mt-10 text-center">
   <h2 class="text-2xl md:text-3xl font-extrabold text-slate-100">Apa Yang Ada di Auladi</h2>
   <p class="mt-2 text-slate-200 max-w-2xl mx-auto">
-    Konten untuk bagian ini sedang disiapkan.
+    Rangkaian kegiatan Ramadhan SIT Auladi disusun untuk memperkuat ibadah, karakter, dan kebersamaan.
+    Setiap kegiatan didampingi guru pembina dan terdokumentasi secara berkala.
   </p>
 
-  <div class="mt-8 rounded-3xl border border-[var(--color-brand-500)]/20 bg-white/85 p-8 md:p-10 shadow-sm">
-    <div class="text-4xl">🚧</div>
-    <h3 class="mt-3 text-xl md:text-2xl font-bold text-slate-800">Coming Soon</h3>
-    <p class="mt-2 text-slate-600 max-w-xl mx-auto">
-      Informasi "Apa Yang Ada di Auladi" akan segera hadir.
-    </p>
+  <div class="mt-8 grid md:grid-cols-3 gap-5">
+    <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 backdrop-blur p-6 shadow-sm text-center">
+      <div class="text-2xl">🏫</div>
+      <div class="mt-2 font-bold text-slate-800">Pesantren Kilat</div>
+      <p class="mt-2 text-sm text-slate-600">
+        Pembinaan iman, adab, dan ibadah siswa dengan materi fiqih puasa, akhlak, serta praktik ibadah harian.
+      </p>
+      <ul class="mt-3 text-xs text-slate-500 space-y-1">
+        <li>📅 Pekan 1-2 Ramadhan</li>
+        <li>👥 Pembina: Ustaz/Ustazah SIT Auladi</li>
+        <li>📍 Ruang kelas & musala</li>
+      </ul>
+    </div>
+
+    <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 backdrop-blur p-6 shadow-sm text-center">
+      <div class="text-2xl">🤲</div>
+      <div class="mt-2 font-bold text-slate-800">Zakat & Infak</div>
+      <p class="mt-2 text-sm text-slate-600">
+        Menumbuhkan kepedulian sosial melalui pengumpulan dan penyaluran zakat/infak bersama komite sekolah.
+      </p>
+      <ul class="mt-3 text-xs text-slate-500 space-y-1">
+        <li>🧺 Pengumpulan: setiap pagi</li>
+        <li>🤝 Penyaluran: menjelang akhir Ramadhan</li>
+        <li>📍 Posko amal sekolah</li>
+      </ul>
+    </div>
+
+    <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 backdrop-blur p-6 shadow-sm text-center">
+      <div class="text-2xl">🍽️</div>
+      <div class="mt-2 font-bold text-slate-800">Buka Bersama</div>
+      <p class="mt-2 text-sm text-slate-600">
+        Momen kebersamaan siswa, guru, dan orang tua disertai tausiyah singkat serta doa bersama.
+      </p>
+      <ul class="mt-3 text-xs text-slate-500 space-y-1">
+        <li>🕒 16.30 - 19.00 WIB</li>
+        <li>🍱 Menu iftar sehat bersama</li>
+        <li>📍 Aula utama</li>
+      </ul>
+    </div>
   </div>
 
   <div class="mt-10">
     <div class="flex flex-col items-center justify-center gap-2 text-center">
       <h2 class="text-2xl md:text-3xl font-extrabold text-slate-100">Kegiatan</h2>
-      <p class="text-sm text-slate-300">Dokumentasi kegiatan Ramadhan akan ditampilkan setelah konten siap.</p>
+      <p class="text-sm text-slate-300"> Rangkuman kegiatan Ramadhan SIT Auladi, dirangkum sebagai kenangan bersama.</p>
     </div>
 
-    <div class="mt-6 rounded-3xl border border-[var(--color-brand-500)]/20 bg-white/85 p-8 md:p-10 shadow-sm">
-      <div class="text-4xl">📷</div>
-      <h3 class="mt-3 text-xl md:text-2xl font-bold text-slate-800">Coming Soon</h3>
-      <p class="mt-2 text-slate-600 max-w-xl mx-auto">
-        Galeri dan rangkuman kegiatan akan segera diperbarui.
-      </p>
+    <div class="mt-6 grid md:grid-cols-3 gap-5">
+      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
+        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+          Foto Pesantren Kilat
+        </div>
+        <div class="mt-4 font-semibold text-slate-800">Hari Pembukaan Pesantren</div>
+        <p class="mt-2 text-sm text-slate-600">Pembacaan ayat suci, tausiyah, dan kontrak belajar Ramadhan.</p>
+        <div class="mt-3 text-xs text-slate-500 space-y-1">
+          <div>📸 Dokumentasi: Tim Humas</div>
+          <div>🗓️ Tanggal: 12 Ramadhan</div>
+        </div>
+      </div>
+
+      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
+        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+          Foto Tadarus & Kultum
+        </div>
+        <div class="mt-4 font-semibold text-slate-800">Tadarus Pagi Bersama</div>
+        <p class="mt-2 text-sm text-slate-600">Kegiatan tadarus 1 juz per pekan dilanjutkan kultum siswa.</p>
+        <div class="mt-3 text-xs text-slate-500 space-y-1">
+          <div>📸 Dokumentasi: Wali kelas</div>
+          <div>🗓️ Tanggal: 14-20 Ramadhan</div>
+        </div>
+      </div>
+
+      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
+        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+          Foto Buka Bersama
+        </div>
+        <div class="mt-4 font-semibold text-slate-800">Iftar & Doa Bersama</div>
+        <p class="mt-2 text-sm text-slate-600">Kebersamaan seluruh keluarga besar SIT Auladi.</p>
+        <div class="mt-3 text-xs text-slate-500 space-y-1">
+          <div>📸 Dokumentasi: OSIS & Panitia</div>
+          <div>🗓️ Tanggal: 22 Ramadhan</div>
+        </div>
+      </div>
     </div>
+
+    <details class="mt-6 group">
+      <summary class="inline-flex items-center justify-center gap-2 rounded-2xl border border-[var(--color-brand-500)]/30 bg-white/80 px-5 py-2 text-sm font-semibold text-[var(--color-brand-600)] transition hover:border-[var(--color-brand-500)]/60">
+        Lihat lainnya
+        <span class="text-lg leading-none transition group-open:rotate-90">›</span>
+      </summary>
+      <div class="mt-5 grid md:grid-cols-3 gap-5">
+        <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
+          <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+            Foto Bakti Sosial
+          </div>
+          <div class="mt-4 font-semibold text-slate-800">Aksi Berbagi Sembako</div>
+          <p class="mt-2 text-sm text-slate-600">Kunjungan siswa ke panti asuhan disertai pembagian paket sembako.</p>
+          <div class="mt-3 text-xs text-slate-500 space-y-1">
+            <div>📸 Dokumentasi: Tim Humas</div>
+            <div>🗓️ Tanggal: 18 Ramadhan</div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
+          <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+            Foto Kelas Inspiratif
+          </div>
+          <div class="mt-4 font-semibold text-slate-800">Kelas Adab & Akhlak</div>
+          <p class="mt-2 text-sm text-slate-600">Diskusi interaktif tentang adab berbicara dan bersosial media.</p>
+          <div class="mt-3 text-xs text-slate-500 space-y-1">
+            <div>📸 Dokumentasi: Guru BK</div>
+            <div>🗓️ Tanggal: 20 Ramadhan</div>
+          </div>
+        </div>
+
+        <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
+          <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+            Foto Lomba Islami
+          </div>
+          <div class="mt-4 font-semibold text-slate-800">Lomba Adzan & Tartil</div>
+          <p class="mt-2 text-sm text-slate-600">Penampilan siswa terbaik dalam lomba adzan dan tartil Al-Qur'an.</p>
+          <div class="mt-3 text-xs text-slate-500 space-y-1">
+            <div>📸 Dokumentasi: OSIS</div>
+            <div>🗓️ Tanggal: 24 Ramadhan</div>
+          </div>
+        </div>
+      </div>
+    </details>
   </div>
 </section>
 
@@ -337,6 +445,79 @@
   </div>
 </section>
 
+<!-- IMSAKIYAH -->
+<section id="imsakiyah" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16 text-center">
+  <h2 class="text-2xl md:text-3xl font-extrabold text-slate-100">Jadwal Imsakiyah Ramadhan 1447 H / 2026 M</h2>
+  <p class="mt-2 text-slate-200 max-w-3xl mx-auto">
+    Jadwal imsakiyah SIT Auladi Palembang untuk memudahkan civitas sekolah memantau waktu ibadah harian.
+  </p>
+
+  @php
+    $jadwalImsakiyah = [
+      ['ramadan' => 1, 'tanggal' => 'Kamis/19 Februari 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:18', 'asar' => '15:32', 'magrib' => '18:24', 'isya' => '19:33'],
+      ['ramadan' => 2, 'tanggal' => 'Jumat/20 Februari 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:18', 'asar' => '15:31', 'magrib' => '18:24', 'isya' => '19:33'],
+      ['ramadan' => 3, 'tanggal' => 'Sabtu/21 Februari 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:18', 'asar' => '15:31', 'magrib' => '18:23', 'isya' => '19:33'],
+      ['ramadan' => 4, 'tanggal' => 'Minggu/22 Februari 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:18', 'asar' => '15:30', 'magrib' => '18:23', 'isya' => '19:32'],
+      ['ramadan' => 5, 'tanggal' => 'Senin/23 Februari 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:18', 'asar' => '15:29', 'magrib' => '18:23', 'isya' => '19:32'],
+      ['ramadan' => 6, 'tanggal' => 'Selasa/24 Februari 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:18', 'asar' => '15:29', 'magrib' => '18:23', 'isya' => '19:32'],
+      ['ramadan' => 7, 'tanggal' => 'Rabu/25 Februari 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:18', 'asar' => '15:28', 'magrib' => '18:23', 'isya' => '19:32'],
+      ['ramadan' => 8, 'tanggal' => 'Kamis/26 Februari 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:17', 'asar' => '15:27', 'magrib' => '18:22', 'isya' => '19:31'],
+      ['ramadan' => 9, 'tanggal' => 'Jumat/27 Februari 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:17', 'asar' => '15:26', 'magrib' => '18:22', 'isya' => '19:31'],
+      ['ramadan' => 10, 'tanggal' => 'Sabtu/28 Februari 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:17', 'asar' => '15:26', 'magrib' => '18:22', 'isya' => '19:30'],
+      ['ramadan' => 11, 'tanggal' => 'Minggu/1 Maret 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:17', 'asar' => '15:25', 'magrib' => '18:21', 'isya' => '19:30'],
+      ['ramadan' => 12, 'tanggal' => 'Senin/2 Maret 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:17', 'asar' => '15:24', 'magrib' => '18:21', 'isya' => '19:30'],
+      ['ramadan' => 13, 'tanggal' => 'Selasa/3 Maret 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:16', 'asar' => '15:23', 'magrib' => '18:21', 'isya' => '19:29'],
+      ['ramadan' => 14, 'tanggal' => 'Rabu/4 Maret 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:16', 'asar' => '15:22', 'magrib' => '18:20', 'isya' => '19:29'],
+      ['ramadan' => 15, 'tanggal' => 'Kamis/5 Maret 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:16', 'asar' => '15:21', 'magrib' => '18:20', 'isya' => '19:29'],
+      ['ramadan' => 16, 'tanggal' => 'Jumat/6 Maret 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:16', 'asar' => '15:20', 'magrib' => '18:20', 'isya' => '19:28'],
+      ['ramadan' => 17, 'tanggal' => 'Sabtu/7 Maret 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:15', 'asar' => '15:19', 'magrib' => '18:20', 'isya' => '19:28'],
+      ['ramadan' => 18, 'tanggal' => 'Minggu/8 Maret 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:15', 'asar' => '15:18', 'magrib' => '18:19', 'isya' => '19:28'],
+      ['ramadan' => 19, 'tanggal' => 'Senin/9 Maret 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:15', 'asar' => '15:17', 'magrib' => '18:19', 'isya' => '19:27'],
+      ['ramadan' => 20, 'tanggal' => 'Selasa/10 Maret 2026', 'imsak' => '04:43', 'subuh' => '04:53', 'zuhur' => '12:15', 'asar' => '15:16', 'magrib' => '18:19', 'isya' => '19:27'],
+      ['ramadan' => 21, 'tanggal' => 'Rabu/11 Maret 2026', 'imsak' => '04:42', 'subuh' => '04:52', 'zuhur' => '12:14', 'asar' => '15:15', 'magrib' => '18:18', 'isya' => '19:26'],
+      ['ramadan' => 22, 'tanggal' => 'Kamis/12 Maret 2026', 'imsak' => '04:42', 'subuh' => '04:52', 'zuhur' => '12:14', 'asar' => '15:14', 'magrib' => '18:18', 'isya' => '19:26'],
+      ['ramadan' => 23, 'tanggal' => 'Jumat/13 Maret 2026', 'imsak' => '04:42', 'subuh' => '04:52', 'zuhur' => '12:14', 'asar' => '15:13', 'magrib' => '18:17', 'isya' => '19:26'],
+      ['ramadan' => 24, 'tanggal' => 'Sabtu/14 Maret 2026', 'imsak' => '04:42', 'subuh' => '04:52', 'zuhur' => '12:14', 'asar' => '15:14', 'magrib' => '18:17', 'isya' => '19:25'],
+      ['ramadan' => 25, 'tanggal' => 'Minggu/15 Maret 2026', 'imsak' => '04:42', 'subuh' => '04:52', 'zuhur' => '12:13', 'asar' => '15:14', 'magrib' => '18:17', 'isya' => '19:25'],
+      ['ramadan' => 26, 'tanggal' => 'Senin/16 Maret 2026', 'imsak' => '04:42', 'subuh' => '04:52', 'zuhur' => '12:13', 'asar' => '15:14', 'magrib' => '18:16', 'isya' => '19:25'],
+      ['ramadan' => 27, 'tanggal' => 'Selasa/17 Maret 2026', 'imsak' => '04:41', 'subuh' => '04:51', 'zuhur' => '12:13', 'asar' => '15:15', 'magrib' => '18:16', 'isya' => '19:24'],
+      ['ramadan' => 28, 'tanggal' => 'Rabu/18 Maret 2026', 'imsak' => '04:41', 'subuh' => '04:51', 'zuhur' => '12:13', 'asar' => '15:15', 'magrib' => '18:16', 'isya' => '19:24'],
+      ['ramadan' => 29, 'tanggal' => 'Kamis/19 Maret 2026', 'imsak' => '04:41', 'subuh' => '04:51', 'zuhur' => '12:12', 'asar' => '15:16', 'magrib' => '18:15', 'isya' => '19:23'],
+      ['ramadan' => 30, 'tanggal' => 'Jumat/20 Maret 2026', 'imsak' => '04:41', 'subuh' => '04:51', 'zuhur' => '12:12', 'asar' => '15:16', 'magrib' => '18:15', 'isya' => '19:23'],
+    ];
+  @endphp
+
+  <div class="mt-8 overflow-x-auto rounded-3xl border border-[var(--color-brand-500)]/20 bg-white/90 shadow-lg">
+    <table class="min-w-full text-sm text-center">
+      <thead class="bg-[var(--color-brand-700)] text-slate-100">
+        <tr>
+          <th class="px-4 py-3 font-bold">Ramadan</th>
+          <th class="px-6 py-3 font-bold">Hari/Tanggal</th>
+          <th class="px-4 py-3 font-bold">Imsak</th>
+          <th class="px-4 py-3 font-bold">Subuh</th>
+          <th class="px-4 py-3 font-bold">Zuhur</th>
+          <th class="px-4 py-3 font-bold">Asar</th>
+          <th class="px-4 py-3 font-bold">Magrib</th>
+          <th class="px-4 py-3 font-bold">Isya</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-[var(--color-brand-500)]/10 text-slate-700">
+        @foreach ($jadwalImsakiyah as $item)
+          <tr class="odd:bg-[var(--color-brand-50)] even:bg-white">
+            <td class="px-4 py-3 font-semibold text-[var(--color-brand-700)]">{{ $item['ramadan'] }}</td>
+            <td class="px-6 py-3 text-left md:text-center">{{ $item['tanggal'] }}</td>
+            <td class="px-4 py-3">{{ $item['imsak'] }}</td>
+            <td class="px-4 py-3">{{ $item['subuh'] }}</td>
+            <td class="px-4 py-3">{{ $item['zuhur'] }}</td>
+            <td class="px-4 py-3">{{ $item['asar'] }}</td>
+            <td class="px-4 py-3">{{ $item['magrib'] }}</td>
+            <td class="px-4 py-3">{{ $item['isya'] }}</td>
+          </tr>
+        @endforeach
+      </tbody>
+    </table>
+  </div>
+</section>
 
 <!-- JADWAL -->
 <section id="jadwal" class="scroll-mt-28 max-w-6xl mx-auto px-6 pb-16 text-center">
@@ -345,61 +526,62 @@
     Jadwal berikut mengikuti tema tausiyah Ramadhan setiap minggu sesuai cabang.
   </p>
 
-  <div class="mt-8 overflow-x-auto rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 shadow-sm">
-    <table class="min-w-full text-sm text-center">
-      <thead class="bg-[var(--color-brand-50)]">
+  <div class="mt-8 overflow-x-auto rounded-3xl border border-[var(--color-brand-500)]/20 bg-white/90 shadow-xl shadow-brand-900/10">
+    <table class="jadwal-kegiatan-table min-w-full text-sm text-center">
+      <thead class="bg-[var(--color-brand-50)] sticky top-0 z-10">
         <tr class="text-center text-slate-700">
           <th class="px-4 py-3 font-bold">No</th>
           <th class="px-6 py-3 font-bold">Penceramah</th>
           <th class="px-6 py-3 font-bold">Cabang</th>
           <th class="px-6 py-3 font-bold">Tema</th>
+          <th class="px-4 py-3 font-bold">Instagram</th>
         </tr>
       </thead>
       <tbody class="divide-y divide-[var(--color-brand-500)]/10 text-slate-700">
-        <tr class="bg-[var(--color-brand-50)]/80 font-bold text-[var(--color-brand-700)]">
-          <td colspan="4" class="px-6 py-2">MINGGU 1</td>
+        <tr class="week-divider bg-gradient-to-r from-[var(--color-brand-50)] to-white font-bold text-[var(--color-brand-700)]">
+          <td colspan="5" class="px-6 py-2">MINGGU 1</td>
         </tr>
-        <tr><td class="px-4 py-3">1</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK SU2</td><td class="px-6 py-3">Makna Ramadhan: Tujuan Pendidikan Jiwa</td></tr>
-        <tr><td class="px-4 py-3">2</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK Pakjo</td><td class="px-6 py-3">Niat Puasa: Mengapa Niat Itu Penting?</td></tr>
-        <tr><td class="px-4 py-3">3</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK Sako</td><td class="px-6 py-3">Puasa Bukan Sekadar Lapar dan Haus</td></tr>
-        <tr><td class="px-4 py-3">4</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Ramadhan sebagai Kesempatan Memperbaiki Diri</td></tr>
-        <tr><td class="px-4 py-3">5</td><td class="px-6 py-3">Ust. Nur Muhammad</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Mengapa Ramadhan Disebut Bulan Al-Qur’an</td></tr>
-        <tr><td class="px-4 py-3">6</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Keutamaan Orang yang Berpuasa</td></tr>
-        <tr><td class="px-4 py-3">7</td><td class="px-6 py-3">Ust. Sisharyadi</td><td class="px-6 py-3">Jakbar</td><td class="px-6 py-3">Ramadhan dan Pengendalian Diri</td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">1</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK SU2</td><td class="px-6 py-3">Makna Ramadhan: Tujuan Pendidikan Jiwa</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Makna%20Ramadhan%3A%20Tujuan%20Pendidikan%20Jiwa%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">2</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK Pakjo</td><td class="px-6 py-3">Niat Puasa: Mengapa Niat Itu Penting?</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Niat%20Puasa%3A%20Mengapa%20Niat%20Itu%20Penting%3F%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">3</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK Sako</td><td class="px-6 py-3">Puasa Bukan Sekadar Lapar dan Haus</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Puasa%20Bukan%20Sekadar%20Lapar%20dan%20Haus%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">4</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Ramadhan sebagai Kesempatan Memperbaiki Diri</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Ramadhan%20sebagai%20Kesempatan%20Memperbaiki%20Diri%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">5</td><td class="px-6 py-3">Ust. Nur Muhammad</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Mengapa Ramadhan Disebut Bulan Al-Qur’an</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Mengapa%20Ramadhan%20Disebut%20Bulan%20Al-Qur%E2%80%99an%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">6</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Keutamaan Orang yang Berpuasa</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Keutamaan%20Orang%20yang%20Berpuasa%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">7</td><td class="px-6 py-3">Ust. Sisharyadi</td><td class="px-6 py-3">Jakbar</td><td class="px-6 py-3">Ramadhan dan Pengendalian Diri</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Ramadhan%20dan%20Pengendalian%20Diri%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
 
-        <tr class="bg-[var(--color-brand-50)]/80 font-bold text-[var(--color-brand-700)]">
-          <td colspan="4" class="px-6 py-2">MINGGU 2</td>
+        <tr class="week-divider bg-gradient-to-r from-[var(--color-brand-50)] to-white font-bold text-[var(--color-brand-700)]">
+          <td colspan="5" class="px-6 py-2">MINGGU 2</td>
         </tr>
-        <tr><td class="px-4 py-3">8</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Puasa Melatih Kejujuran</td></tr>
-        <tr><td class="px-4 py-3">9</td><td class="px-6 py-3">Ust. Farurozi</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Shalat Tepat Waktu di Bulan Ramadhan</td></tr>
-        <tr><td class="px-4 py-3">10</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Keutamaan Membaca Al-Qur’an Setiap Hari</td></tr>
-        <tr><td class="px-4 py-3">11</td><td class="px-6 py-3">Ust. Andre</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Sedekah di Bulan Ramadhan: Kecil tapi Bermakna</td></tr>
-        <tr><td class="px-4 py-3">12</td><td class="px-6 py-3">Menteri Agama Osis</td><td class="px-6 py-3">Jakbar</td><td class="px-6 py-3">Doa Orang Berpuasa yang Mustajab</td></tr>
-        <tr><td class="px-4 py-3">13</td><td class="px-6 py-3">Ust. Fikri</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Menjaga Lisan Saat Berpuasa</td></tr>
-        <tr><td class="px-4 py-3">14</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Puasa dan Disiplin Waktu</td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">8</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Puasa Melatih Kejujuran</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Puasa%20Melatih%20Kejujuran%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">9</td><td class="px-6 py-3">Ust. Farurozi</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Shalat Tepat Waktu di Bulan Ramadhan</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Shalat%20Tepat%20Waktu%20di%20Bulan%20Ramadhan%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">10</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Keutamaan Membaca Al-Qur’an Setiap Hari</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Keutamaan%20Membaca%20Al-Qur%E2%80%99an%20Setiap%20Hari%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">11</td><td class="px-6 py-3">Ust. Andre</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Sedekah di Bulan Ramadhan: Kecil tapi Bermakna</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Sedekah%20di%20Bulan%20Ramadhan%3A%20Kecil%20tapi%20Bermakna%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">12</td><td class="px-6 py-3">Menteri Agama Osis</td><td class="px-6 py-3">Jakbar</td><td class="px-6 py-3">Doa Orang Berpuasa yang Mustajab</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Doa%20Orang%20Berpuasa%20yang%20Mustajab%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">13</td><td class="px-6 py-3">Ust. Fikri</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Menjaga Lisan Saat Berpuasa</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Menjaga%20Lisan%20Saat%20Berpuasa%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">14</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Puasa dan Disiplin Waktu</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Puasa%20dan%20Disiplin%20Waktu%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
 
-        <tr class="bg-[var(--color-brand-50)]/80 font-bold text-[var(--color-brand-700)]">
-          <td colspan="4" class="px-6 py-2">MINGGU 3</td>
+        <tr class="week-divider bg-gradient-to-r from-[var(--color-brand-50)] to-white font-bold text-[var(--color-brand-700)]">
+          <td colspan="5" class="px-6 py-2">MINGGU 3</td>
         </tr>
-        <tr><td class="px-4 py-3">15</td><td class="px-6 py-3">Ust. Yunus</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Puasa Mengajarkan Kesabaran</td></tr>
-        <tr><td class="px-4 py-3">16</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Jakbar</td><td class="px-6 py-3">Menahan Amarah di Bulan Ramadhan</td></tr>
-        <tr><td class="px-4 py-3">17</td><td class="px-6 py-3">Ust. Ridho</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Ramadhan dan Sikap Saling Menghargai</td></tr>
-        <tr><td class="px-4 py-3">18</td><td class="px-6 py-3">Menteri Agama</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Puasa dan Empati kepada Sesama</td></tr>
-        <tr><td class="px-4 py-3">19</td><td class="px-6 py-3">Ust. Doris</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Menghindari Ghibah dan Perkataan Buruk</td></tr>
-        <tr><td class="px-4 py-3">20</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Ramadhan sebagai Latihan Akhlak Mulia</td></tr>
-        <tr><td class="px-4 py-3">21</td><td class="px-6 py-3">Ust. Hafiz</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Berbagi dan Peduli di Bulan Ramadhan</td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">15</td><td class="px-6 py-3">Ust. Yunus</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Puasa Mengajarkan Kesabaran</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Puasa%20Mengajarkan%20Kesabaran%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">16</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Jakbar</td><td class="px-6 py-3">Menahan Amarah di Bulan Ramadhan</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Menahan%20Amarah%20di%20Bulan%20Ramadhan%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">17</td><td class="px-6 py-3">Ust. Ridho</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Ramadhan dan Sikap Saling Menghargai</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Ramadhan%20dan%20Sikap%20Saling%20Menghargai%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">18</td><td class="px-6 py-3">Menteri Agama</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Puasa dan Empati kepada Sesama</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Puasa%20dan%20Empati%20kepada%20Sesama%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">19</td><td class="px-6 py-3">Ust. Doris</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Menghindari Ghibah dan Perkataan Buruk</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Menghindari%20Ghibah%20dan%20Perkataan%20Buruk%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">20</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Ramadhan sebagai Latihan Akhlak Mulia</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Ramadhan%20sebagai%20Latihan%20Akhlak%20Mulia%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">21</td><td class="px-6 py-3">Ust. Hafiz</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Berbagi dan Peduli di Bulan Ramadhan</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Berbagi%20dan%20Peduli%20di%20Bulan%20Ramadhan%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
 
-        <tr class="bg-[var(--color-brand-50)]/80 font-bold text-[var(--color-brand-700)]">
-          <td colspan="4" class="px-6 py-2">MINGGU 4</td>
+        <tr class="week-divider bg-gradient-to-r from-[var(--color-brand-50)] to-white font-bold text-[var(--color-brand-700)]">
+          <td colspan="5" class="px-6 py-2">MINGGU 4</td>
         </tr>
-        <tr><td class="px-4 py-3">22</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Makna Idul Fitri: Kembali Suci</td></tr>
-        <tr><td class="px-4 py-3">23</td><td class="px-6 py-3">Ust. Angga</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Zakat Fitrah: Penyempurna Ibadah Puasa</td></tr>
-        <tr><td class="px-4 py-3">24</td><td class="px-6 py-3">Ust. Agus</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Siapa dan Kapan Membayar Zakat Fitrah?</td></tr>
-        <tr><td class="px-4 py-3">25</td><td class="px-6 py-3">Ust. Dedi</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Hikmah Zakat Fitrah bagi Sesama</td></tr>
-        <tr><td class="px-4 py-3">26</td><td class="px-6 py-3">Ust. Abil</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Lailatul Qadar: Malam Lebih Baik dari Seribu Bulan</td></tr>
-        <tr><td class="px-4 py-3">27</td><td class="px-6 py-3">Ust. Eki</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Ramadhan Hampir Usai, Apa yang Kita Dapatkan?</td></tr>
-        <tr><td class="px-4 py-3">28</td><td class="px-6 py-3">Ust. Muhtarom</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Istiqomah Setelah Ramadhan</td></tr>
-        <tr><td class="px-4 py-3">29</td><td class="px-6 py-3">Ust. Muslim</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Menjaga Ibadah Setelah Idul Fitri</td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">22</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Makna Idul Fitri: Kembali Suci</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Makna%20Idul%20Fitri%3A%20Kembali%20Suci%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">23</td><td class="px-6 py-3">Ust. Angga</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Zakat Fitrah: Penyempurna Ibadah Puasa</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Zakat%20Fitrah%3A%20Penyempurna%20Ibadah%20Puasa%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">24</td><td class="px-6 py-3">Ust. Agus</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Siapa dan Kapan Membayar Zakat Fitrah?</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Siapa%20dan%20Kapan%20Membayar%20Zakat%20Fitrah%3F%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">25</td><td class="px-6 py-3">Ust. Dedi</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Hikmah Zakat Fitrah bagi Sesama</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Hikmah%20Zakat%20Fitrah%20bagi%20Sesama%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">26</td><td class="px-6 py-3">Ust. Abil</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Lailatul Qadar: Malam Lebih Baik dari Seribu Bulan</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Lailatul%20Qadar%3A%20Malam%20Lebih%20Baik%20dari%20Seribu%20Bulan%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">27</td><td class="px-6 py-3">Ust. Eki</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Ramadhan Hampir Usai, Apa yang Kita Dapatkan?</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Ramadhan%20Hampir%20Usai%2C%20Apa%20yang%20Kita%20Dapatkan%3F%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">28</td><td class="px-6 py-3">Ust. Muhtarom</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Istiqomah Setelah Ramadhan</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Istiqomah%20Setelah%20Ramadhan%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">29</td><td class="px-6 py-3">Ust. Muslim</td><td class="px-6 py-3">Semabor</td><td class="px-6 py-3">Menjaga Ibadah Setelah Idul Fitri</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Menjaga%20Ibadah%20Setelah%20Idul%20Fitri%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
       </tbody>
     </table>
   </div>
