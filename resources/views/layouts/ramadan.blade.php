@@ -56,7 +56,6 @@
         <a href="#materi" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Video Materi</a>
         <a href="#quotes" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Quotes Ramadan</a>
         <a href="#kegiatan" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Kegiatan Ramadan</a>
-        <a href="#imsakiyah" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Jadwal Imsakiyah</a>
         <a href="#jadwal" class="block w-full rounded-lg px-2 py-1 hover:text-brand-600 transition md:w-auto md:p-0">Jadwal Ramadan</a>
       </nav>
 
