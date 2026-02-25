@@ -375,9 +375,9 @@
     $videoMateriByMinggu = [
       'Minggu 1' => [
         ['no' => 1, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'TK SU2', 'tema' => 'Makna Ramadhan: Tujuan Pendidikan Jiwa', 'youtube_id' => 'oM-jl-4Nytg', 'youtube_url' => 'https://youtube.com/shorts/oM-jl-4Nytg'],
-        ['no' => 2, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'TK Pakjo', 'tema' => 'Niat Puasa: Mengapa Niat Itu Penting?', 'youtube_id' => 'xlFK_PZE814', 'youtube_url' => 'https://youtube.com/shorts/xlFK_PZE814'],
-        ['no' => 3, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'TK Sako', 'tema' => 'Puasa Bukan Sekadar Lapar dan Haus'],
-        ['no' => 4, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'SU2', 'tema' => 'Ramadhan sebagai Kesempatan Memperbaiki Diri'],
+        ['no' => 2, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'TK Pakjo', 'tema' => 'Niat Puasa: Mengapa Niat Itu Penting?', 'youtube_id' => 'L1bVTmnpSAA', 'youtube_url' => 'https://youtube.com/shorts/L1bVTmnpSAA'],
+        ['no' => 3, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'TK Sako', 'tema' => 'Puasa Bukan Sekadar Lapar dan Haus', 'youtube_id' => 'fYfJ1X30XZ8', 'youtube_url' => 'https://youtube.com/shorts/fYfJ1X30XZ8'],
+        ['no' => 4, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'SU2', 'tema' => 'Ramadhan sebagai Kesempatan Memperbaiki Diri', 'youtube_id' => 'g1LZf8SaNFQ', 'youtube_url' => 'https://youtube.com/shorts/g1LZf8SaNFQ'],
         ['no' => 5, 'penceramah' => 'Ust. Nur Muhammad', 'cabang' => 'Pakjo', 'tema' => 'Mengapa Ramadhan Disebut Bulan Al-Qur’an'],
         ['no' => 6, 'penceramah' => 'Menteri Agama SLHT', 'cabang' => 'Sako', 'tema' => 'Keutamaan Orang yang Berpuasa'],
         ['no' => 7, 'penceramah' => 'Ust. Sisharyadi', 'cabang' => 'Jakbar', 'tema' => 'Ramadhan dan Pengendalian Diri'],
@@ -429,11 +429,19 @@
               <p class="mt-2 text-xs md:text-sm text-slate-600">Pemateri: {{ $item['penceramah'] }} | Cabang: {{ $item['cabang'] }}</p>
 
               <div class="mt-3 aspect-video rounded-xl overflow-hidden border border-[var(--color-brand-500)]/10">
-                <iframe class="w-full h-full"
-                  loading="lazy"
-                  src="{{ isset($item['youtube_id'])
+                @php
+                  $embedUrl = isset($item['youtube_id'])
                     ? 'https://www.youtube.com/embed/'.$item['youtube_id']
-                    : 'https://www.youtube.com/embed?listType=search&list='.urlencode('tausiyah ramadhan '.$item['tema'].' '.$item['penceramah']) }}"
+                    : 'https://www.youtube.com/embed?listType=search&list='.urlencode('tausiyah ramadhan '.$item['tema'].' '.$item['penceramah']);
+                  $embedUrl .= str_contains($embedUrl, '?') ? '&' : '?';
+                  $embedUrl .= 'enablejsapi=1&rel=0';
+                @endphp
+
+                <iframe
+                  id="video-materi-player-{{ $item['no'] }}"
+                  class="video-materi-player w-full h-full"
+                  loading="lazy"
+                  src="{{ $embedUrl }}"
                   title="Video Materi Tausiyah {{ $item['tema'] }}"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -471,10 +479,10 @@
         </tr>
         <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">1</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK SU2</td><td class="px-6 py-3">Makna Ramadhan: Tujuan Pendidikan Jiwa</td><td class="px-4 py-3"><a href="https://www.instagram.com/reel/DU7utMWka0l/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
         <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">2</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK Pakjo</td><td class="px-6 py-3">Niat Puasa: Mengapa Niat Itu Penting?</td><td class="px-4 py-3"><a href="https://www.instagram.com/reel/DU-bEZTk-SE/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
-        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">3</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK Sako</td><td class="px-6 py-3">Puasa Bukan Sekadar Lapar dan Haus</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Puasa%20Bukan%20Sekadar%20Lapar%20dan%20Haus%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0"></a></td></tr>
-        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">4</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Ramadhan sebagai Kesempatan Memperbaiki Diri</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Ramadhan%20sebagai%20Kesempatan%20Memperbaiki%20Diri%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0"></a></td></tr>
-        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">5</td><td class="px-6 py-3">Ust. Nur Muhammad</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Mengapa Ramadhan Disebut Bulan Al-Qur’an</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Mengapa%20Ramadhan%20Disebut%20Bulan%20Al-Qur%E2%80%99an%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0"></a></td></tr>
-        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">6</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Keutamaan Orang yang Berpuasa</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Keutamaan%20Orang%20yang%20Berpuasa%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0"></a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">3</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">TK Sako</td><td class="px-6 py-3">Puasa Bukan Sekadar Lapar dan Haus</td><td class="px-4 py-3"><a href="https://www.instagram.com/reel/DVA36ObiTwh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">4</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">SU2</td><td class="px-6 py-3">Ramadhan sebagai Kesempatan Memperbaiki Diri</td><td class="px-4 py-3"><a href="https://www.instagram.com/reel/DVDjq7vEZDy/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Llihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">5</td><td class="px-6 py-3">Ust. Nur Muhammad</td><td class="px-6 py-3">Pakjo</td><td class="px-6 py-3">Mengapa Ramadhan Disebut Bulan Al-Qur’an</td><td class="px-4 py-3"><a href="https://www.instagram.com/reel/DVGFbZmkzp8/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0">Lihat</a></td></tr>
+        <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">6</td><td class="px-6 py-3">Menteri Agama SLHT</td><td class="px-6 py-3">Sako</td><td class="px-6 py-3">Keutamaan Orang yang Berpuasa</td><td class="px-4 py-3"><a href="https://www.instagram.com/reel/DVItrK0ia9V/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0"></a>Lihat</td></tr>
         <tr class="transition-colors hover:bg-blue-50/60"><td class="px-4 py-3">7</td><td class="px-6 py-3">Ust. Sisharyadi</td><td class="px-6 py-3">Jakbar</td><td class="px-6 py-3">Ramadhan dan Pengendalian Diri</td><td class="px-4 py-3"><a href="https://www.instagram.com/explore/search/keyword/?q=Ramadhan%20dan%20Pengendalian%20Diri%20SIT%20Auladi%20Palembang" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-900 ring-1 ring-blue-200 transition-all duration-200 hover:-translate-y-0.5 hover:bg-blue-200 hover:shadow-md active:translate-y-0"></a></td></tr>
 
         <tr class="week-divider bg-gradient-to-r from-[var(--color-brand-50)] to-white font-bold text-[var(--color-brand-700)]">
@@ -514,5 +522,55 @@
     </table>
   </div>
 </section>
+
+<script>
+  (function setupSingleVideoPlayback() {
+    const playerIframes = document.querySelectorAll('.video-materi-player');
+
+    if (!playerIframes.length) {
+      return;
+    }
+
+    const players = new Map();
+
+    function pauseOtherPlayers(activePlayerId) {
+      players.forEach((player, playerId) => {
+        if (playerId === activePlayerId) {
+          return;
+        }
+
+        if (typeof player.pauseVideo === 'function') {
+          player.pauseVideo();
+        }
+      });
+    }
+
+    window.onYouTubeIframeAPIReady = function onYouTubeIframeAPIReady() {
+      playerIframes.forEach((iframe) => {
+        const playerId = iframe.id;
+
+        if (!playerId) {
+          return;
+        }
+
+        const player = new YT.Player(playerId, {
+          events: {
+            onStateChange: (event) => {
+              if (event.data === YT.PlayerState.PLAYING) {
+                pauseOtherPlayers(playerId);
+              }
+            },
+          },
+        });
+
+        players.set(playerId, player);
+      });
+    };
+
+    const apiScript = document.createElement('script');
+    apiScript.src = 'https://www.youtube.com/iframe_api';
+    document.body.appendChild(apiScript);
+  })();
+</script>
 
 @endsection
