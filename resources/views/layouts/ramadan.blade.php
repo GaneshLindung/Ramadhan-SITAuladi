@@ -88,7 +88,9 @@
           </p>
           <div class="flex items-center gap-3">
             <a
-              href="#"
+              href="https://facebook.com/sitauladipalembang"
+              target="_blank"
+              rel="noopener noreferrer"
               class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-100 bg-white text-[#D4AF37] shadow-sm transition hover:border-brand-200 hover:text-[#C9982A]"
               aria-label="Facebook SIT Auladi"
             >
@@ -97,7 +99,9 @@
               </svg>
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/sitauladipalembang/"
+              target="_blank"
+              rel="noopener noreferrer"
               class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-100 bg-white text-[#D4AF37] shadow-sm transition hover:border-brand-200 hover:text-[#C9982A]"
               aria-label="Instagram SIT Auladi"
             >
@@ -106,12 +110,28 @@
               </svg>
             </a>
             <a
-              href="#"
+              href="http://www.youtube.com/@sitauladipalembang2425"
+              target="_blank"
+              rel="noopener noreferrer"
               class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-100 bg-white text-[#D4AF37] shadow-sm transition hover:border-brand-200 hover:text-[#C9982A]"
               aria-label="YouTube SIT Auladi"
             >
               <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                 <path d="M21.6 7.2a2.7 2.7 0 0 0-1.9-1.9C17.9 5 12 5 12 5s-5.9 0-7.7.3a2.7 2.7 0 0 0-1.9 1.9C2 9 2 12 2 12s0 3 .3 4.8a2.7 2.7 0 0 0 1.9 1.9C6.1 19 12 19 12 19s5.9 0 7.7-.3a2.7 2.7 0 0 0 1.9-1.9C22 15 22 12 22 12s0-3-.4-4.8ZM10 15.5v-7l6 3.5-6 3.5Z"/>
+              </svg>
+            </a>
+            <a
+              href="https://sitauladi.sch.id/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex h-10 w-10 items-center justify-center rounded-full border border-brand-100 bg-white text-[#D4AF37] shadow-sm transition hover:border-brand-200 hover:text-[#C9982A]"
+              aria-label="Website SIT Auladi"
+            >
+              <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="12" cy="12" r="9"></circle>
+                <path d="M3 12h18"></path>
+                <path d="M12 3a15 15 0 0 1 0 18"></path>
+                <path d="M12 3a15 15 0 0 0 0 18"></path>
               </svg>
             </a>
           </div>
