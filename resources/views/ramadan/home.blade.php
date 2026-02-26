@@ -241,35 +241,35 @@
         Pembinaan iman, adab, dan ibadah siswa dengan materi fiqih puasa, akhlak, serta praktik ibadah harian.
       </p>
       <ul class="mt-3 text-xs text-slate-500 space-y-1">
-        <li>📅 Pekan 1-2 Ramadhan</li>
-        <li>👥 Pembina: Ustaz/Ustazah SIT Auladi</li>
-        <li>📍 Ruang kelas & musala</li>
+        <li>📅 Jadwal: Segera diinformasikan</li>
+        <li>👥 Pembina: Menunggu konfirmasi</li>
+        <li>📍 Lokasi: Menunggu penetapan</li>
       </ul>
     </div>
 
     <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 backdrop-blur p-6 shadow-sm text-center">
       <div class="text-2xl">🤲</div>
-      <div class="mt-2 font-bold text-slate-800">Zakat & Infak</div>
+      <div class="mt-2 font-bold text-slate-800">Zakat</div>
       <p class="mt-2 text-sm text-slate-600">
-        Menumbuhkan kepedulian sosial melalui pengumpulan dan penyaluran zakat/infak bersama komite sekolah.
+        Menumbuhkan kepedulian sosial melalui pengumpulan dan penyaluran zakat fitrah untuk yang membutuhkan.
       </p>
       <ul class="mt-3 text-xs text-slate-500 space-y-1">
-        <li>🧺 Pengumpulan: setiap pagi</li>
-        <li>🤝 Penyaluran: menjelang akhir Ramadhan</li>
-        <li>📍 Posko amal sekolah</li>
+        <li>🧺 Pengumpulan: Segera diinformasikan</li>
+        <li>🤝 Penyaluran: Menunggu konfirmasi</li>
+        <li>📍 Lokasi: Menunggu konfirmasi</li>
       </ul>
     </div>
 
     <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 backdrop-blur p-6 shadow-sm text-center">
-      <div class="text-2xl">🍽️</div>
-      <div class="mt-2 font-bold text-slate-800">Buka Bersama</div>
+      <div class="text-2xl">🕌</div>
+      <div class="mt-2 font-bold text-slate-800">Itikaf</div>
       <p class="mt-2 text-sm text-slate-600">
-        Momen kebersamaan siswa, guru, dan orang tua disertai tausiyah singkat serta doa bersama.
+        Program itikaf di masjid untuk memperbanyak ibadah malam, tilawah, dzikir, dan doa bersama.
       </p>
       <ul class="mt-3 text-xs text-slate-500 space-y-1">
-        <li>🕒 16.30 - 19.00 WIB</li>
-        <li>🍱 Menu iftar sehat bersama</li>
-        <li>📍 Aula utama</li>
+        <li>🕒 Jadwal: Segera diinformasikan</li>
+        <li>📖 Kegiatan: Menunggu konfirmasi</li>
+        <li>📍 Lokasi:Menunggu konfirmasi</li>
       </ul>
     </div>
   </div>
@@ -288,32 +288,32 @@
         <div class="mt-4 font-semibold text-slate-800">Hari Pembukaan Pesantren</div>
         <p class="mt-2 text-sm text-slate-600">Pembacaan ayat suci, tausiyah, dan kontrak belajar Ramadhan.</p>
         <div class="mt-3 text-xs text-slate-500 space-y-1">
-          <div>📸 Dokumentasi: Tim Humas</div>
-          <div>🗓️ Tanggal: 12 Ramadhan</div>
+          <div>📸 Dokumentasi: Segera diperbarui</div>
+          <div>🗓️ Tanggal: Menunggu jadwal resmi</div>
         </div>
       </div>
 
       <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
         <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-          Foto Tadarus & Kultum
+          Foto Zakat
         </div>
-        <div class="mt-4 font-semibold text-slate-800">Tadarus Pagi Bersama</div>
-        <p class="mt-2 text-sm text-slate-600">Kegiatan tadarus 1 juz per pekan dilanjutkan kultum siswa.</p>
+        <div class="mt-4 font-semibold text-slate-800">Penyaluran Zakat</div>
+        <p class="mt-2 text-sm text-slate-600">Penyerahan zakat kepada penerima manfaat bersama panitia sekolah.</p>
         <div class="mt-3 text-xs text-slate-500 space-y-1">
-          <div>📸 Dokumentasi: Wali kelas</div>
-          <div>🗓️ Tanggal: 14-20 Ramadhan</div>
+          <div>📸 Dokumentasi: Segera diperbarui</div>
+          <div>🗓️ Tanggal: Menunggu jadwal resmi</div>
         </div>
       </div>
 
       <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
         <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-          Foto Buka Bersama
+          Foto Itikaf
         </div>
-        <div class="mt-4 font-semibold text-slate-800">Iftar & Doa Bersama</div>
-        <p class="mt-2 text-sm text-slate-600">Kebersamaan seluruh keluarga besar SIT Auladi.</p>
+        <div class="mt-4 font-semibold text-slate-800">Malam Itikaf Bersama</div>
+        <p class="mt-2 text-sm text-slate-600">Pelaksanaan itikaf malam untuk memperkuat ruhiyah di akhir Ramadhan.</p>
         <div class="mt-3 text-xs text-slate-500 space-y-1">
-          <div>📸 Dokumentasi: OSIS & Panitia</div>
-          <div>🗓️ Tanggal: 22 Ramadhan</div>
+          <div>📸 Dokumentasi: Segera diperbarui</div>
+          <div>🗓️ Tanggal: Menunggu jadwal resmi</div>
         </div>
       </div>
     </div>
@@ -326,37 +326,37 @@
       <div class="mt-5 grid md:grid-cols-3 gap-5">
         <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
           <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-            Foto Bakti Sosial
+            Foto Kegiatan (Segera Diperbarui)
           </div>
-          <div class="mt-4 font-semibold text-slate-800">Aksi Berbagi Sembako</div>
-          <p class="mt-2 text-sm text-slate-600">Kunjungan siswa ke panti asuhan disertai pembagian paket sembako.</p>
+          <div class="mt-4 font-semibold text-slate-800">Kegiatan Menunggu Konfirmasi</div>
+          <p class="mt-2 text-sm text-slate-600">Detail kegiatan pada sesi ini masih menunggu informasi resmi dari panitia.</p>
           <div class="mt-3 text-xs text-slate-500 space-y-1">
-            <div>📸 Dokumentasi: Tim Humas</div>
-            <div>🗓️ Tanggal: 18 Ramadhan</div>
+            <div>📸 Dokumentasi: Menunggu penanggung jawab</div>
+            <div>🗓️ Tanggal: Belum ditentukan</div>
           </div>
         </div>
 
         <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
           <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-            Foto Kelas Inspiratif
+            Foto Kegiatan (Segera Diperbarui)
           </div>
-          <div class="mt-4 font-semibold text-slate-800">Kelas Adab & Akhlak</div>
-          <p class="mt-2 text-sm text-slate-600">Diskusi interaktif tentang adab berbicara dan bersosial media.</p>
+          <div class="mt-4 font-semibold text-slate-800">Kegiatan Menunggu Konfirmasi</div>
+          <p class="mt-2 text-sm text-slate-600">Detail kegiatan pada sesi ini masih menunggu informasi resmi dari panitia.</p>
           <div class="mt-3 text-xs text-slate-500 space-y-1">
-            <div>📸 Dokumentasi: Guru BK</div>
-            <div>🗓️ Tanggal: 20 Ramadhan</div>
+            <div>📸 Dokumentasi: Menunggu penanggung jawab</div>
+            <div>🗓️ Tanggal: Belum ditentukan</div>
           </div>
         </div>
 
         <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
           <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-            Foto Lomba Islami
+            Foto Kegiatan (Segera Diperbarui)
           </div>
-          <div class="mt-4 font-semibold text-slate-800">Lomba Adzan & Tartil</div>
-          <p class="mt-2 text-sm text-slate-600">Penampilan siswa terbaik dalam lomba adzan dan tartil Al-Qur'an.</p>
+          <div class="mt-4 font-semibold text-slate-800">Kegiatan Menunggu Konfirmasi</div>
+          <p class="mt-2 text-sm text-slate-600">Detail kegiatan pada sesi ini masih menunggu informasi resmi dari panitia.</p>
           <div class="mt-3 text-xs text-slate-500 space-y-1">
-            <div>📸 Dokumentasi: OSIS</div>
-            <div>🗓️ Tanggal: 24 Ramadhan</div>
+            <div>📸 Dokumentasi: Menunggu penanggung jawab</div>
+            <div>🗓️ Tanggal: Belum ditentukan</div>
           </div>
         </div>
       </div>
@@ -415,7 +415,7 @@
 
   <div class="mt-8 space-y-6 text-left">
     @foreach ($videoMateriByMinggu as $minggu => $items)
-      <details class="group rounded-3xl border border-[var(--color-brand-500)]/20 bg-white/85 p-5" @if ($loop->first) open @endif>
+        <details class="group rounded-3xl border border-[var(--color-brand-500)]/20 bg-white/85 p-5" @if ($minggu === 'Minggu 2') open @endif>
         <summary class="flex cursor-pointer list-none items-center justify-between gap-2">
           <span class="text-base md:text-lg font-extrabold text-[var(--color-brand-700)]">{{ $minggu }}</span>
           <span class="text-xs md:text-sm font-semibold text-slate-500">{{ count($items) }} materi</span>
