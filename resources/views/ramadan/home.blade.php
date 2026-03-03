@@ -241,22 +241,22 @@
         Pembinaan iman, adab, dan ibadah siswa dengan materi fiqih puasa, akhlak, serta praktik ibadah harian.
       </p>
       <ul class="mt-3 text-xs text-slate-500 space-y-1">
-        <li>📅 Jadwal: Segera diinformasikan</li>
-        <li>👥 Pembina: Menunggu konfirmasi</li>
-        <li>📍 Lokasi: Menunggu penetapan</li>
+        <li>📅 Jadwal: 4–6 Februari 2026</li>
+        <li>👥 Peserta: Siswa/i di setiap cabang Auladi</li>
+        <li>📍 Lokasi: Auladi SU II, Pakjo, Sako, Semabor, Jakabaring</li>
       </ul>
     </div>
 
     <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 backdrop-blur p-6 shadow-sm text-center">
-      <div class="text-2xl">🤲</div>
-      <div class="mt-2 font-bold text-slate-800">Zakat</div>
+      <div class="text-2xl">🤝</div>
+      <div class="mt-2 font-bold text-slate-800">Bakti Sosial</div>
       <p class="mt-2 text-sm text-slate-600">
-        Menumbuhkan kepedulian sosial melalui pengumpulan dan penyaluran zakat fitrah untuk yang membutuhkan.
+        Aksi kepedulian sosial bersama siswa, guru, dan orang tua melalui penyaluran bantuan kepada masyarakat sekitar.
       </p>
       <ul class="mt-3 text-xs text-slate-500 space-y-1">
-        <li>🧺 Pengumpulan: Segera diinformasikan</li>
-        <li>🤝 Penyaluran: Menunggu konfirmasi</li>
-        <li>📍 Lokasi: Menunggu konfirmasi</li>
+        <li>📅 Pelaksanaan: 7 Februari 2026</li>
+        <li>🎁 Fokus: Santunan & berbagi paket sosial</li>
+        <li>📍 Lokasi: Auladi SU II, Pakjo, Sako, Semabor, Jakabaring</li>
       </ul>
     </div>
 
@@ -289,19 +289,7 @@
         <p class="mt-2 text-sm text-slate-600">Pembacaan ayat suci, tausiyah, dan kontrak belajar Ramadan.</p>
         <div class="mt-3 text-xs text-slate-500 space-y-1">
           <div>📸 Dokumentasi: Segera diperbarui</div>
-          <div>🗓️ Tanggal: Menunggu jadwal resmi</div>
-        </div>
-      </div>
-
-      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
-        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-          Foto Zakat
-        </div>
-        <div class="mt-4 font-semibold text-slate-800">Penyaluran Zakat</div>
-        <p class="mt-2 text-sm text-slate-600">Penyerahan zakat kepada penerima manfaat bersama panitia sekolah.</p>
-        <div class="mt-3 text-xs text-slate-500 space-y-1">
-          <div>📸 Dokumentasi: Segera diperbarui</div>
-          <div>🗓️ Tanggal: Menunggu jadwal resmi</div>
+          <div>🗓️ Tanggal: 4 Februari 2026</div>
         </div>
       </div>
 
@@ -309,11 +297,23 @@
         <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
           Foto Itikaf
         </div>
-        <div class="mt-4 font-semibold text-slate-800">Malam Itikaf Bersama</div>
-        <p class="mt-2 text-sm text-slate-600">Pelaksanaan itikaf malam untuk memperkuat ruhiyah di akhir Ramadan.</p>
+        <div class="mt-4 font-semibold text-slate-800">Penutupan Pesantren Kilat</div>
+        <p class="mt-2 text-sm text-slate-600">Refleksi materi, murojaah ibadah, dan doa bersama sebagai penutup kegiatan.</p>
         <div class="mt-3 text-xs text-slate-500 space-y-1">
           <div>📸 Dokumentasi: Segera diperbarui</div>
-          <div>🗓️ Tanggal: Menunggu jadwal resmi</div>
+          <div>🗓️ Tanggal: 6 Februari 2026</div>
+        </div>
+      </div>
+
+      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
+        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
+          Foto Bakti Sosial
+        </div>
+        <div class="mt-4 font-semibold text-slate-800">Aksi Berbagi di Cabang</div>
+        <p class="mt-2 text-sm text-slate-600">Penyaluran bantuan sosial serentak kepada masyarakat sekitar sekolah.</p>
+        <div class="mt-3 text-xs text-slate-500 space-y-1">
+          <div>📸 Dokumentasi: Segera diperbarui</div>
+          <div>🗓️ Tanggal: 7 Februari 2026</div>
         </div>
       </div>
     </div>
