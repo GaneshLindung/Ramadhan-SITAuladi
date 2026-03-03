@@ -280,42 +280,64 @@
       <p class="text-sm text-slate-300"> Rangkuman kegiatan Ramadan SIT Auladi, dirangkum sebagai kenangan bersama.</p>
     </div>
 
+    @php
+      $kegiatanSliders = [
+        [
+          'judul' => 'Hari Pembukaan Pesantren',
+          'deskripsi' => 'Pembacaan ayat suci, tausiyah, dan kontrak belajar Ramadan.',
+          'tanggal' => '4 Februari 2026',
+          'ikon' => '📖',
+        ],
+        [
+          'judul' => 'Penutupan Pesantren Kilat',
+          'deskripsi' => 'Refleksi materi, murojaah ibadah, dan doa bersama sebagai penutup kegiatan.',
+          'tanggal' => '6 Februari 2026',
+          'ikon' => '✨',
+        ],
+        [
+          'judul' => 'Bakti Sosial',
+          'deskripsi' => 'Penyaluran bantuan sosial serentak kepada masyarakat sekitar sekolah.',
+          'tanggal' => '7 Februari 2026',
+          'ikon' => '🤝',
+        ],
+      ];
+
+      $daftarCabang = ['SU II', 'Pakjo', 'Sako', 'Semabor', 'Jakabaring'];
+    @endphp
+
     <div class="mt-6 grid md:grid-cols-3 gap-5">
-      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
-        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-          Foto Pesantren Kilat
-        </div>
-        <div class="mt-4 font-semibold text-slate-800">Hari Pembukaan Pesantren</div>
-        <p class="mt-2 text-sm text-slate-600">Pembacaan ayat suci, tausiyah, dan kontrak belajar Ramadan.</p>
-        <div class="mt-3 text-xs text-slate-500 space-y-1">
-          <div>📸 Dokumentasi: Segera diperbarui</div>
-          <div>🗓️ Tanggal: 4 Februari 2026</div>
-        </div>
-      </div>
+      @foreach ($kegiatanSliders as $index => $kegiatan)
+        <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center" data-slider="kegiatan-{{ $index }}">
+          <div class="relative overflow-hidden rounded-2xl border border-[var(--color-brand-500)]/10 bg-gradient-to-br from-[var(--color-brand-50)] to-white p-3">
+            <div class="flex transition-transform duration-500 ease-in-out" data-slider-track>
+              @foreach ($daftarCabang as $branchIndex => $cabang)
+                <div class="w-full shrink-0">
+                  <div class="text-xs font-semibold uppercase tracking-wider text-[var(--color-brand-600)]">{{ $kegiatan['ikon'] }} Cabang {{ $cabang }}</div>
+                  <div class="mt-2 aspect-video rounded-xl border border-[var(--color-brand-500)]/15 bg-white/80 flex items-center justify-center text-xs font-medium text-slate-500">
+                    Foto Cabang {{ $cabang }}
+                  </div>
+                </div>
+              @endforeach
+            </div>
 
-      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
-        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-          Foto Itikaf
-        </div>
-        <div class="mt-4 font-semibold text-slate-800">Penutupan Pesantren Kilat</div>
-        <p class="mt-2 text-sm text-slate-600">Refleksi materi, murojaah ibadah, dan doa bersama sebagai penutup kegiatan.</p>
-        <div class="mt-3 text-xs text-slate-500 space-y-1">
-          <div>📸 Dokumentasi: Segera diperbarui</div>
-          <div>🗓️ Tanggal: 6 Februari 2026</div>
-        </div>
-      </div>
+            <button type="button" class="absolute left-2 top-1/2 -translate-y-1/2 rounded-full bg-white/90 px-2 py-1 text-xs font-bold text-[var(--color-brand-700)] shadow" data-slider-prev aria-label="Slide sebelumnya">‹</button>
+            <button type="button" class="absolute right-2 top-1/2 -translate-y-1/2 rounded-full bg-white/90 px-2 py-1 text-xs font-bold text-[var(--color-brand-700)] shadow" data-slider-next aria-label="Slide berikutnya">›</button>
+          </div>
 
-      <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
-        <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-          Foto Bakti Sosial
+          <div class="mt-3 flex items-center justify-center gap-2" data-slider-dots>
+            @foreach ($daftarCabang as $branchIndex => $cabang)
+              <button type="button" class="h-2 w-2 rounded-full bg-slate-300 transition" data-slider-dot="{{ $branchIndex }}" aria-label="Tampilkan cabang {{ $cabang }}"></button>
+            @endforeach
+          </div>
+
+          <div class="mt-4 font-semibold text-slate-800">{{ $kegiatan['judul'] }}</div>
+          <p class="mt-2 text-sm text-slate-600">{{ $kegiatan['deskripsi'] }}</p>
+          <div class="mt-3 text-xs text-slate-500 space-y-1">
+            <div>📸 Dokumentasi: Slider 1 foto tiap cabang</div>
+            <div>🗓️ Tanggal: {{ $kegiatan['tanggal'] }}</div>
+          </div>
         </div>
-        <div class="mt-4 font-semibold text-slate-800">Aksi Berbagi di Cabang</div>
-        <p class="mt-2 text-sm text-slate-600">Penyaluran bantuan sosial serentak kepada masyarakat sekitar sekolah.</p>
-        <div class="mt-3 text-xs text-slate-500 space-y-1">
-          <div>📸 Dokumentasi: Segera diperbarui</div>
-          <div>🗓️ Tanggal: 7 Februari 2026</div>
-        </div>
-      </div>
+      @endforeach
     </div>
 
     <details class="mt-6 group">
@@ -524,6 +546,50 @@
 </section>
 
 <script>
+  (function setupPhotoSliders() {
+    const sliderCards = document.querySelectorAll('[data-slider]');
+
+    sliderCards.forEach((card) => {
+      const track = card.querySelector('[data-slider-track]');
+      const dots = card.querySelectorAll('[data-slider-dot]');
+      const prevBtn = card.querySelector('[data-slider-prev]');
+      const nextBtn = card.querySelector('[data-slider-next]');
+
+      if (!track || !dots.length) {
+        return;
+      }
+
+      let currentIndex = 0;
+      const totalSlides = dots.length;
+
+      function renderSlide(index) {
+        currentIndex = (index + totalSlides) % totalSlides;
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+
+        dots.forEach((dot, dotIndex) => {
+          const activeClasses = ['bg-[var(--color-brand-500)]', 'scale-110'];
+
+          if (dotIndex === currentIndex) {
+            dot.classList.add(...activeClasses);
+            dot.classList.remove('bg-slate-300');
+          } else {
+            dot.classList.remove(...activeClasses);
+            dot.classList.add('bg-slate-300');
+          }
+        });
+      }
+
+      prevBtn?.addEventListener('click', () => renderSlide(currentIndex - 1));
+      nextBtn?.addEventListener('click', () => renderSlide(currentIndex + 1));
+
+      dots.forEach((dot, dotIndex) => {
+        dot.addEventListener('click', () => renderSlide(dotIndex));
+      });
+
+      renderSlide(0);
+    });
+  })();
+
   (function setupSingleVideoPlayback() {
     const playerIframes = document.querySelectorAll('.video-materi-player');
 
