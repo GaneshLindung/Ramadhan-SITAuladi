@@ -267,9 +267,9 @@
         Program itikaf di masjid untuk memperbanyak ibadah malam, tilawah, dzikir, dan doa bersama.
       </p>
       <ul class="mt-3 text-xs text-slate-500 space-y-1">
-        <li>🕒 Jadwal: Segera diinformasikan</li>
-        <li>📖 Kegiatan: Menunggu konfirmasi</li>
-        <li>📍 Lokasi:Menunggu konfirmasi</li>
+        <li>🕒 Jadwal: 10–14 Ramadan (5 malam terakhir)</li>
+        <li>📖 Kegiatan: Itikaf malam, tilawah, dzikir, dan doa bersama</li>
+        <li>📍 Lokasi: Masjid Nurhidayah, Palembang</li>
       </ul>
     </div>
   </div>
@@ -283,10 +283,10 @@
     @php
       $kegiatanSliders = [
         [
-          'judul' => 'Hari Pembukaan Pesantren',
-          'deskripsi' => 'Pembacaan ayat suci, tausiyah, dan kontrak belajar Ramadan.',
-          'tanggal' => '4 Februari 2026',
-          'ikon' => '📖',
+          'judul' => 'Itikaf',
+          'deskripsi' => 'Pelaksanaan itikaf 5 malam terakhir Ramadan untuk memperkuat ibadah qiyamullail, tilawah, dan dzikir.',
+          'tanggal' => '10–14 Ramadan',
+          'ikon' => '🕌',
         ],
         [
           'judul' => 'Penutupan Pesantren Kilat',
@@ -339,50 +339,6 @@
         </div>
       @endforeach
     </div>
-
-    <details class="mt-6 group">
-      <summary class="inline-flex items-center justify-center gap-2 rounded-2xl border border-[var(--color-brand-500)]/30 bg-white/80 px-5 py-2 text-sm font-semibold text-[var(--color-brand-600)] transition hover:border-[var(--color-brand-500)]/60">
-        Lihat lainnya
-        <span class="text-lg leading-none transition group-open:rotate-90">›</span>
-      </summary>
-      <div class="mt-5 grid md:grid-cols-3 gap-5">
-        <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
-          <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-            Foto Kegiatan (Segera Diperbarui)
-          </div>
-          <div class="mt-4 font-semibold text-slate-800">Kegiatan Menunggu Konfirmasi</div>
-          <p class="mt-2 text-sm text-slate-600">Detail kegiatan pada sesi ini masih menunggu informasi resmi dari panitia.</p>
-          <div class="mt-3 text-xs text-slate-500 space-y-1">
-            <div>📸 Dokumentasi: Menunggu penanggung jawab</div>
-            <div>🗓️ Tanggal: Belum ditentukan</div>
-          </div>
-        </div>
-
-        <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
-          <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-            Foto Kegiatan (Segera Diperbarui)
-          </div>
-          <div class="mt-4 font-semibold text-slate-800">Kegiatan Menunggu Konfirmasi</div>
-          <p class="mt-2 text-sm text-slate-600">Detail kegiatan pada sesi ini masih menunggu informasi resmi dari panitia.</p>
-          <div class="mt-3 text-xs text-slate-500 space-y-1">
-            <div>📸 Dokumentasi: Menunggu penanggung jawab</div>
-            <div>🗓️ Tanggal: Belum ditentukan</div>
-          </div>
-        </div>
-
-        <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center">
-          <div class="h-36 rounded-2xl bg-gradient-to-br from-[var(--color-brand-50)] to-white border border-[var(--color-brand-500)]/10 flex items-center justify-center text-sm text-slate-500">
-            Foto Kegiatan (Segera Diperbarui)
-          </div>
-          <div class="mt-4 font-semibold text-slate-800">Kegiatan Menunggu Konfirmasi</div>
-          <p class="mt-2 text-sm text-slate-600">Detail kegiatan pada sesi ini masih menunggu informasi resmi dari panitia.</p>
-          <div class="mt-3 text-xs text-slate-500 space-y-1">
-            <div>📸 Dokumentasi: Menunggu penanggung jawab</div>
-            <div>🗓️ Tanggal: Belum ditentukan</div>
-          </div>
-        </div>
-      </div>
-    </details>
   </div>
 </section>
 
