@@ -212,7 +212,7 @@
 <section id="quotes" class="scroll-mt-28 w-full mt-6 text-center">
   <div class="w-full border-y border-[var(--color-brand-500)]/15 bg-white/10 px-6 py-8 md:py-10">
     <div class="mx-auto w-full max-w-4xl">
-      <div class="text-xs md:text-sm uppercase tracking-[0.3em] text-[var(--color-brand-600)]">Quotes Ramadan</div>
+      <div class="text-sm md:text-base uppercase tracking-[0.3em] text-[var(--color-brand-600)]">Quotes Ramadan</div>
       <p class="mt-3 text-base md:text-lg font-semibold text-slate-100 italic leading-relaxed">
       <span class="block">"Wahai orang-orang yang beriman,</span>
       <span class="block">diwajibkan atas kamu berpuasa</span>
@@ -236,9 +236,9 @@
   <div class="mt-8 grid md:grid-cols-3 gap-5">
     <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/80 backdrop-blur p-6 shadow-sm text-center">
       <div class="text-2xl">🏫</div>
-      <div class="mt-2 font-bold text-slate-800">Pesantren Kilat</div>
+      <div class="mt-2 font-bold text-slate-800">Pesantren Ramadan</div>
       <p class="mt-2 text-sm text-slate-600">
-        Pembinaan iman, adab, dan ibadah siswa dengan materi fiqih puasa, akhlak, serta praktik ibadah harian.
+        Pembinaan iman, adab, dan ibadah siswa dengan materi ramadan, akhlak, serta praktik ibadah harian.
       </p>
       <ul class="mt-3 text-xs text-slate-500 space-y-1">
         <li>📅 Jadwal: 4–6 Februari 2026</li>
@@ -283,22 +283,26 @@
     @php
       $kegiatanSliders = [
         [
-          'judul' => 'Itikaf',
-          'deskripsi' => 'Pelaksanaan itikaf 5 malam terakhir Ramadan untuk memperkuat ibadah qiyamullail, tilawah, dan dzikir.',
-          'tanggal' => '10–14 Ramadan',
-          'ikon' => '🕌',
-        ],
-        [
-          'judul' => 'Penutupan Pesantren Kilat',
-          'deskripsi' => 'Refleksi materi, murojaah ibadah, dan doa bersama sebagai penutup kegiatan.',
-          'tanggal' => '6 Februari 2026',
-          'ikon' => '✨',
+          'judul' => 'Pesantren Ramadan',
+          'deskripsi' => 'Pembacaan ayat suci, tausiyah, dan materi Ramadan.',
+          'tanggal' => '4-6 Februari 2026',
+          'ikon' => '📖',
+          'dokumentasi' => 'Slider 1 foto tiap cabang',
         ],
         [
           'judul' => 'Bakti Sosial',
-          'deskripsi' => 'Penyaluran bantuan sosial serentak kepada masyarakat sekitar sekolah.',
+          'deskripsi' => 'Pembagian Parcel, Santunan, dan berbagi paket sosial.',
           'tanggal' => '7 Februari 2026',
-          'ikon' => '🤝',
+          'ikon' => '🏫',
+          'dokumentasi' => 'Slider 1 foto tiap cabang',
+        ],
+        [
+          'judul' => 'Itikaf',
+          'deskripsi' => 'Program ibadah malam di masjid dengan tilawah, dzikir, kajian, dan doa bersama.',
+          'tanggal' => 'Segera diinformasikan',
+          'ikon' => '🕌',
+          'dokumentasi' => '1 foto kegiatan utama',
+          'cabang' => ['Kegiatan Utama'],
         ],
       ];
 
@@ -310,7 +314,11 @@
         <div class="rounded-3xl border border-[var(--color-brand-500)]/15 bg-white/85 p-5 shadow-sm text-center" data-slider="kegiatan-{{ $index }}">
           <div class="relative overflow-hidden rounded-2xl border border-[var(--color-brand-500)]/10 bg-gradient-to-br from-[var(--color-brand-50)] to-white p-3">
             <div class="flex transition-transform duration-500 ease-in-out" data-slider-track>
-              @foreach ($daftarCabang as $branchIndex => $cabang)
+              @php
+                $cabangKegiatan = $kegiatan['cabang'] ?? $daftarCabang;
+              @endphp
+
+              @foreach ($cabangKegiatan as $branchIndex => $cabang)
                 <div class="w-full shrink-0">
                   <div class="text-xs font-semibold uppercase tracking-wider text-[var(--color-brand-600)]">{{ $kegiatan['ikon'] }} Cabang {{ $cabang }}</div>
                   <div class="mt-2 aspect-video rounded-xl border border-[var(--color-brand-500)]/15 bg-white/80 flex items-center justify-center text-xs font-medium text-slate-500">
@@ -325,7 +333,7 @@
           </div>
 
           <div class="mt-3 flex items-center justify-center gap-2" data-slider-dots>
-            @foreach ($daftarCabang as $branchIndex => $cabang)
+            @foreach ($cabangKegiatan as $branchIndex => $cabang)
               <button type="button" class="h-2 w-2 rounded-full bg-slate-300 transition" data-slider-dot="{{ $branchIndex }}" aria-label="Tampilkan cabang {{ $cabang }}"></button>
             @endforeach
           </div>
@@ -333,7 +341,7 @@
           <div class="mt-4 font-semibold text-slate-800">{{ $kegiatan['judul'] }}</div>
           <p class="mt-2 text-sm text-slate-600">{{ $kegiatan['deskripsi'] }}</p>
           <div class="mt-3 text-xs text-slate-500 space-y-1">
-            <div>📸 Dokumentasi: Slider 1 foto tiap cabang</div>
+            <div>📸 Dokumentasi: {{ $kegiatan['dokumentasi'] ?? 'Slider 1 foto tiap cabang' }}</div>
             <div>🗓️ Tanggal: {{ $kegiatan['tanggal'] }}</div>
           </div>
         </div>
