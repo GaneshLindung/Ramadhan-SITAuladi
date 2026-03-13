@@ -288,6 +288,13 @@
           'tanggal' => '4-6 Februari 2026',
           'ikon' => '📖',
           'dokumentasi' => 'Slider 1 foto tiap cabang',
+          'gambar' => [
+            'SU II' => 'images/PesantrenRamadanSUII.jpg',
+            'Pakjo' => 'images/PesantrenRamadanPakjo.jpg',
+            'Sako' => 'images/PesantrenRamadanSako.jpg',
+            'Semabor' => 'images/PesantrenRamadanSemabor.jpg',
+            'Jakabaring' => 'images/PesantrenRamadanJakabaring.jpg',
+          ],
         ],
         [
           'judul' => 'Bakti Sosial',
@@ -295,6 +302,13 @@
           'tanggal' => '7 Februari 2026',
           'ikon' => '🏫',
           'dokumentasi' => 'Slider 1 foto tiap cabang',
+          'gambar' => [
+            'SU II' => 'images/BaksosSUII.jpg',
+            'Pakjo' => 'images/BaksosPakjo.jpg',
+            'Sako' => 'images/BaksosSako.jpg',
+            'Semabor' => 'images/BaksosSemabor.jpg',
+            'Jakabaring' => 'images/BaksosJakabaring.jpg',
+          ],
         ],
         [
           'judul' => 'Itikaf',
@@ -328,7 +342,7 @@
                 @endphp
 
                 <div class="w-full shrink-0">
-                  <div class="text-xs font-semibold uppercase tracking-wider text-[var(--color-brand-600)]">{{ ($kegiatan['judul'] === 'Itikaf' && $cabang === 'Kegiatan Utama') ? 'SIT Auladi Palembang' : $kegiatan['ikon'] . ' Cabang ' . $cabang }}</div>
+                  <div class="text-xs font-semibold uppercase tracking-wider text-[var(--color-brand-600)]">{{ ($kegiatan['judul'] === 'Itikaf' && $cabang === 'Kegiatan Utama') ? 'SIT Auladi Palembang' : 'Auladi ' . $cabang }}</div>
 
                   @if ($gambarCabang)
                     <img
